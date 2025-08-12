@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "Slang",
+              "Concept",
+              "Type",
+              "Keyword"
+            ],
+            "type": "string"
+          },
+          "description": {
+            "type": "array"
+          },
+          "source": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "synonyms": {
+            "type": "array"
+          },
+          "see_also": {
+            "type": "array"
+          }
+        },
+        "required": [
+          "name",
+          "type",
+          "description",
+          "source",
+          "quote",
+          "synonyms",
+          "see_also"
+        ]
+      }
+    }
+  },
+  "required": [
+    "words"
+  ]
+}

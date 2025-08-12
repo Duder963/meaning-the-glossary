@@ -1,0 +1,260 @@
+[
+    {
+        "name": "Aggro",
+        "type": "Slang",
+        "description": ["One of the 3 main deck archetypes. An archetype highly dependent on creature combat and aggressive attacks. Aggro decks generally have a low mana curve and try to overwhelm the opponent before they can establish their plan."],
+        "source": "MTG Wiki",
+        "quote": "I love playing Aggro. I bought the monsters I'm gonna swing with em",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Allied Colors",
+        "type": "Concept",
+        "description": ["The five pairings of colors adjacent to each other on the color wheel. The names are derived from their respective Ravnican guilds, those being...",
+                        "- Azorius: WU",
+                        "- Dimir: UB",
+                        "- Rakdos: BR",
+                        "- Gruul: RG",
+                        "- Selesnya: GW",
+                        "These colors are ideologically similar, hence their allied nature."],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": ["Azorius", "Dimir", "Rakdos", "Gruul", "Selesnya"]
+    },
+    {
+        "name": "Alpha Strike",
+        "type": "Slang",
+        "description": ["Attacking with every creature you have in a final attack for lethal damage"],
+        "source": "MTG Wiki",
+        "quote": "Yeah I'm just gonna alpha strike you for lethal.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Anthem",
+        "type": "Slang",
+        "description": ["Any effect which buffs all of a players creatures. Named after Glorious Anthem."],
+        "source": "MTG Wiki",
+        "quote": "I play Always Watching, it's an anthem giving my nontoken creatures +1/+1",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Aristocrat",
+        "type": "Slang",
+        "description": ["A creature with an activated ability involving sacrificing another creature. Also refers to a deck archetype centered around this strategy"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": ["word1", "word2"],
+        "see_also": ["word3", "word4"]
+    },
+    {
+        "name": "Abzan",
+        "type": "Concept",
+        "description": ["The wedge combination of WBG, named after the respective clan of Tarkir"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Azorious",
+        "type": "Concept",
+        "description": ["The allied color pair of WU, named after the Ravnican Guild"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Bant",
+        "type": "Concept",
+        "description": ["The shard combination of UWG, named after the shard of Alara"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Battle",
+        "type": "Type",
+        "description": ["A card type introduced in March of the Machine. FIX THIS"],
+        "source": "Description Source",
+        "quote": "This is a quote using the word - Quote Sayer",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Board Wipe",
+        "type": "Slang",
+        "description": ["A spell that somehow disposes of all creatures currently in play. Board wipes are typically symmetrical, wiping out the caster's creatures as well, however asymmetrical boardwipes do exist, but are usually much more expensive"],
+        "source": "MTG Wiki",
+        "quote": "Yeah this board looks bad for me, imma just cast a board wipe",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Bomb",
+        "type": "Slang",
+        "description": ["A card powerful enough to change the course of the game on its own. Usually used in the context of limited formats, where drafting or opening a bomb greatly improves one's chances."],
+        "source": "MTG Wiki",
+        "quote": "I got carried so hard by that bomb I drafted last time",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Boros",
+        "type": "Concept",
+        "description": ["The enemy color pair of WR, named after the Ravnican Guild"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Bounce",
+        "type": "Slang",
+        "description": ["A spell or effect that returns a permanant to its owner's hand"],
+        "source": "MTG Wiki",
+        "quote": "I'll cast Desculpting Blast and bounce your 4/4 flyer",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "BREAD",
+        "type": "Slang",
+        "description": ["A draft strategy to help prioritize which cards to draft. The term is an acronym for",
+                        "- Bomb",
+                        "- Removal",
+                        "- Evasion",
+                        "- Aggro",
+                        "- Dud",
+                        "The term is prolific, however some consider it outdated as a result of modern set design, as well as the nebulous nature of the evasion, aggro, and dud categories. Nonetheless, it is still a helpful strategy for people starting out with drafting"
+                        ],
+        "source": "Description Source",
+        "quote": "This is a quote using the word - Quote Sayer",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Burn",
+        "type": "Slang",
+        "description": ["Slang for a source of direct damage, damage dealt outside of combat"],
+        "source": "MTG Wiki",
+        "quote": "I'll use Lightning Bolt to burn you for 3 damage",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Cantrip",
+        "type": "Slang",
+        "description": ["A spell or ability with a 'Draw a Card' effect tacked on. A spell with this ability effectively replaces itself in your hand"],
+        "source": "MTG Wiki",
+        "quote": "I can't believe that spell's a cantrip considering how broken it is",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "CEDH",
+        "type": "Slang",
+        "description": ["Competitive Elder Dragon Highlander. A subset of Commander focused around playing to win as efficiently as possible with the strongest possible decks. Game Changers, infinite combos, land destruction, anything goes as long as it hasn't been banned."],
+        "source": "MTG Wiki",
+        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Chaff",
+        "type": "Slang",
+        "description": ["Unremarkable cards, unlikely to be included in a constructed deck. Typically common or uncommon cards, but there are exceptions. Very frequently used in the context of 'draft chaff,' cards that are usually considered useless outside of a limited format. "],
+        "source": "MTG Wiki",
+        "quote": "Wow this whole pack is nothing but chaff that's crazy",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Cheat",
+        "type": "Slang",
+        "description": ["To play a card with a high mana cost, but actually paying little, if any, of the cost. Commonly achieved with spells and abilities that directly put cards onto the battlefield"],
+        "source": "MTG Wiki",
+        "quote": "IT'S TURN 4 HOW DID YOU CHEAT OUT ETALI THAT QUICK???",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Chump Block",
+        "type": "Slang",
+        "description": ["Blocking a high power/toughness creature with a low power/toughness creature, the only goal being to prevent the big creature from damaging you. A chump blocker is any creature used for such a purpose"],
+        "source": "MTG Wiki",
+        "quote": "You're swinging with a 28/28? Ok, I'll just chump block with my human token",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Clock",
+        "type": "Slang",
+        "description": ["A threat that will lead to victory over an opponent in a finite number of turns, giving the opponent a time limit in which they must either win or answer the threat"],
+        "source": "MTG Wiki",
+        "quote": "You're at 10 health and can't block my 2/2 flyer. You're on a 5 turn clock.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Combat Trick",
+        "type": "Slang",
+        "description": ["An instant or activated ability that buffs or debuffs a creature, usually played after attacks and blocks have been declared to swing the outcome of the interaction"],
+        "source": "MTG Wiki",
+        "quote": "Hm... I could block her 2/2 with my 3/3, but she might have a combat trick up her sleeve...",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Combo",
+        "type": "Slang",
+        "description": ["A combination of multiple cards which produces a beneficial effect, usually greater than the benefits from the separate cards.",
+                        "Also refers to one of the 3 main deck archetypes, a combo deck uses a combo as its win condition, and is thus designed to set up and protect that combo",
+                        "Can also be used as a verb when a player initiates the combo, as in to 'combo off'"],
+        "source": "MTG Wiki",
+        "quote": "This guy's combo deck is nuts! Every time he just draws two cards, tutors the rest, and combos off by turn 5!",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Control",
+        "type": "Slang",
+        "description": ["One of the 3 main deck archetypes, control decks aim to counter or otherwise negate an opponents threats while steadily gaining advantage. Control decks sacrifice winning the game quickly in exchange for consistently dealing with their opponents' threats."],
+        "source": "MTG Wiki",
+        "quote": "I can't believe she's a control player. I thought she was cool...",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Cube",
+        "type": "Format",
+        "description": ["A casual format where players create a large pool of cards they then proceed to draft from, in essence creating their very own Magic: The Gathering set."],
+        "source": "MTG Wiki",
+        "quote": "One of these days I'm gonna make my Sliver cube, just you wait",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Topdeck",
+        "type": "Slang",
+        "description": ["To play a card you just drew, especially at exactly the time you need it"],
+        "source": "MTG Wiki",
+        "quote": "Nah don't worry I'll just topdeck some removal",
+        "synonyms": ["mise", "rip"],
+        "see_also": ["word3", "word4"]
+    },
+    {
+        "name": "Kicker",
+        "type": "Keyword",
+        "description": ["An additional cost to a spell that may be paid as it is cast, providing some additional effect. Supposedly one of the two types of keywords in Magic"],
+        "source": "Meaning: The Glossary",
+        "quote": "Kicker {1}{B} - When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy target creature.",
+        "synonyms": [],
+        "see_also": ["word3", "word4"]
+    }
+]
