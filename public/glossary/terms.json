@@ -78,6 +78,22 @@
         "see_also": []
     },
     {
+        "name": "Basic Land",
+        "type": "Type",
+        "description": ["The 6 variants of lands which can tap to produce a color of mana, as well as their snow-covered variants. These types are...",
+                        "Plains (W)",
+                        "Island (U)",
+                        "Swamp (B)",
+                        "Mountain (R)",
+                        "Forest (G)",
+                        "Wastes (C)",
+                        "Basic lands are one of the few cards which bypass deckbuilding restrictions, such as the 4-of-a-kind in 60-card formats, and the singleton rule in Commander"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": ["Dual Lands"]
+    },
+    {
         "name": "Battle",
         "type": "Type",
         "description": ["A card type introduced in March of the Machine. FIX THIS"],
@@ -240,13 +256,229 @@
         "see_also": []
     },
     {
-        "name": "Topdeck",
+        "name": "Dead Card",
         "type": "Slang",
-        "description": ["To play a card you just drew, especially at exactly the time you need it"],
+        "description": ["A card in hand that is irrelevant or unplayable, either because it cannot be played, or it has become irrelevant."],
         "source": "MTG Wiki",
-        "quote": "Nah don't worry I'll just topdeck some removal",
-        "synonyms": ["mise", "rip"],
-        "see_also": ["word3", "word4"]
+        "quote": "Really? A mana dork now? What a dead card",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Decking",
+        "type": "Slang",
+        "description": ["To run a player's library out of cards, thus causing them to lose the game for being unable to draw cards when required to do so"],
+        "source": "MTG Wiki",
+        "quote": "You know my buddy once accidentally decked himself out last prerelease.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Dies to Removal",
+        "type": "Slang",
+        "description": ["A joking phrase used to ascribe an unrealistic sense of vulnerability to powerful permanents, typically creatures."],
+        "source": "MTG Wiki",
+        "quote": "I maintain that Nadu shouldn't have been banned. She dies to removal",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Dimir",
+        "type": "Slang",
+        "description": ["The allied color pair of UB, named after the Ravnican Guild"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Dork",
+        "type": "Slang",
+        "description": ["A creature with unimpressive combat stats. Commonly used to refer to utility creatures which have some other relevant ability."],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Drain",
+        "type": "Slang",
+        "description": ["An effect that causes an opponent or creature to take damage or lose life, while the effect's controller gains life."],
+        "source": "MTG Wiki",
+        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Drop",
+        "type": "Slang",
+        "description": ["A permanent which can be played without major strategic consideration. Usually used in the context of '2-drop', '3-drop' etc., referring to the turn when a permanent can first be played, which is usually equal to its mana value."],
+        "source": "MTG Wiki",
+        "quote": "It's crucial to my plan that I play my commander as a 3 drop",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Dud",
+        "type": "Slang",
+        "description": ["A card generally not worth playing, either because its mana cost is too high for whatever benefit it gives, or because the benefit it gives isn't particularly advantageous"],
+        "source": "MTG Wiki",
+        "quote": "Man I've just been drafting nothing but duds",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Dual Land",
+        "type": "Concept",
+        "description": ["Any of the non-basic lands which can produce 2 colors of mana. Especially refers to the original 10 dual lands which featured no restrictions on their use, making them incredibly powerful and rare, especially since all 10 are on the reserved list",
+                        "Several different kinds of dual lands exist, each with their own advantages and disadvantages. For a comprehensive list of each category of dual lands, check back later. Maybe Duder'll get around to it."],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": ["If you see this, yell at Duder to make the dual lands entries"]
+    },
+    {
+        "name": "Egg",
+        "type": "Slang",
+        "description": ["A cheap artifact that can be cracked for a small effect. Derived from the Odyssey 'egg' cycle"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Enemy Colors",
+        "type": "Concept",
+        "description": ["The five pairings of colors opposite to each other on the color wheel. The names are derived from their respective Ravnican guilds, those being...",
+                        "- Orzhov: WB",
+                        "- Golgari: BG",
+                        "- Simic: GU",
+                        "- Izzet: UR",
+                        "- Boros: RW",
+                        "These colors are ideologically opposed, hence their enemy nature, however there are still some commonalities between them."],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Engine",
+        "type": "Slang",
+        "description": ["A card or combination of cards that produce a powerful (and often repeatable) effect that does not win the game on its own, but is effective in “powering” other strategies."],
+        "source": "MTG Wiki",
+        "quote": "If you wanna make that deck work you need to make sure to set up your draw engine",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Esper",
+        "type": "Concept",
+        "description": ["The shard combination of UWB, named after the shard of Alara"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "ETB",
+        "type": "Slang",
+        "description": ["Enters the Battlefield. Refers to abilities which trigger when a creature enters the battlefield. Before M10, this was 'comes into play' or CIP, and following Bloomburrow in 2024, this is reduced to 'enters.'"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Errata",
+        "type": "Concept",
+        "description": ["An official change to the rules text or type line on cards. Often done to clarify card effects or to preserve the effects of cards as the rules of the game change."],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Evasion",
+        "type": "Slang",
+        "description": ["Any ability of a creature that improves its chances of damaging the defending player by limiting what creatures can block it. Examples include Flying, Menace, and Horsemanship, to name a few.",
+                        "Can arguably apply to other abilities which either make blocking less effective, such as Trample, or unfavorable, such as First Strike",
+                        "In the context of a draft, applies to any creature featuring some evasion ability"],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Fast Land",
+        "type": "Slang",
+        "description": ["A dual land that enters the battlefield untapped if the player controls a low number of other lands."],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Fast Mana",
+        "type": "Slang",
+        "description": ["Any effect that gives the user two or more extra mana than the mana they untapped with at the beginning of their turn. Examples include the moxen, rituals, and the infamous Black Lotus, to name a few."],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Fizzle",
+        "type": "Slang",
+        "description": ["When a spell or ability on the stack fails to resolve and leaves the stack due to its initial targets becoming illegal between it being cast and it resolving."],
+        "source": "MTG Wiki",
+        "quote": "Well since you blew up my elk, my invigorate will fizzle. Well played",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Flicker",
+        "type": "Slang",
+        "description": ["A spell or effect which exiles a permanant then immediately returns it to the battlefield. This allows ETB effects to be reused, be it on the flickered creature or some other creature"],
+        "source": "MTG Wiki",
+        "quote": "I'm gonna flicker my commander so your removal fizzles and I can get another drain off of Blood Artist",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Floating",
+        "type": "Slang",
+        "description": ["Mana that a player has acquired but has not spent, caused by a spell or ability producing more mana than the player needed to spend at that time."],
+        "source": "MTG Wiki",
+        "quote": "I'm gonna tap my Sol Ring and a Mountain, leaving one of the colorless floating, to Abrade your Sol Ring",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Fog",
+        "type": "Slang",
+        "description": ["Any effect which prevents combat damage for a turn. Named after Fog."],
+        "source": "MTG Wiki",
+        "quote": "Whoops forgot that got untapped. Yeah I'm just gonna cast Fog.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Glass Cannon",
+        "type": "Slang",
+        "description": ["A deck with a high potential, but can easily be disrupted. Such decks either win decisively or get utterly demolished."],
+        "source": "MTG Wiki",
+        "quote": "Man I just can't stop playing glass cannons. I hate getting blown up, but when it works out? Ohhhhh baby.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Goldfishing",
+        "type": "Slang",
+        "description": ["Playing a deck solo against an imaginary opponent who does nothing. Used to test a deck's performance during the deckbuilding process."],
+        "source": "MTG Wiki",
+        "quote": "I should really goldfish my decks more. They always end up sputtering out in real games.",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Kicker",
@@ -256,5 +488,32 @@
         "quote": "Kicker {1}{B} - When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy target creature.",
         "synonyms": [],
         "see_also": ["word3", "word4"]
+    },
+    {
+        "name": "Tall",
+        "type": "Slang",
+        "description": ["A creature-based strategy to overwhelm the opponent by attacking with a small number of large creatures. These creatures often outclass or evade the opponent's creatures."],
+        "source": "MTG Wiki",
+        "quote": "Wow a 48/48? You're going really tall apparently",
+        "synonyms": [],
+        "see_also": ["Wide"]
+    },
+    {
+        "name": "Topdeck",
+        "type": "Slang",
+        "description": ["To play a card you just drew, especially at exactly the time you need it"],
+        "source": "MTG Wiki",
+        "quote": "Nah don't worry I'll just topdeck some removal",
+        "synonyms": ["mise", "rip"],
+        "see_also": ["word3", "word4"]
+    },
+    {
+        "name": "Wide",
+        "type": "Slang",
+        "description": ["A creature-based strategy, often making use of tokens, to overwhelm the opponent by attacking with a huge number of small creatures."],
+        "source": "MTG Wiki",
+        "quote": "Ok I know you like going wide, but seriously how'd you make 20 guys in 1 turn?",
+        "synonyms": [],
+        "see_also": []
     }
 ]

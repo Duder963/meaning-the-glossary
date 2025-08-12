@@ -4,7 +4,7 @@ import data from "@/public/glossary/terms.json"
 
 export default function Home() {
     const glossary: GlossaryTerm[] = data as GlossaryTerm[]
-    const cards = glossary.map((term) => <TermCard key={term.name} term={term} />)
+    const cards = glossary.map((term) => <TermCard key={term.name} term={term} delay={0.1} />)
     return (
         <div>
             <h1 className="text-5xl text-center text-orange-400">Meaning: The Gathering</h1>

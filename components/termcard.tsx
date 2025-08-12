@@ -1,4 +1,6 @@
 import Markdown from 'react-markdown'
+import './termcard.css'
+
 export enum TermType {
     Concept = "Concept",
     Format = "Format",
@@ -17,10 +19,11 @@ export interface GlossaryTerm {
     see_also: string[]
 }
 
-export default function TermCard({term}: {term: GlossaryTerm}) {
+export default function TermCard({term, delay}: {term: GlossaryTerm, delay: number}) {
     const {name, type, description, source, quote, synonyms, see_also} = term
     return (
-        <div className="term-card bg-slate-700 rounded-2xl flex flex-col gap-4 mx-100 p-10 px-24">
+        <div className="term-card bg-slate-700 rounded-2xl flex flex-col gap-4 mx-100 p-10 px-24"
+            style={{animationDelay: `${delay}s`}}>
             <h1 className="text-center text-3xl font-bold">{name}</h1>
             <h3 className="text-2xl text-center">{type}</h3>
             <p className='whitespace-pre-line text-center'>{description.join("\n")}</p>

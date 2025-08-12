@@ -1,0 +1,14 @@
+@keyframes slideInFromRight {
+from {
+    transform: translateX(150%);
+}
+to {
+    transform: translateX(0);
+}
+}
+
+.term-card {
+    transform: translateX(200%);
+    animation: slideInFromRight .3s ease-out forwards;
+    /* animation-delay: var(--animation-delay, 0s); */
+}

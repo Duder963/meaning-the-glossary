@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-@keyframes slideInFromRight {
-from {
-    transform: translateX(100%);
-}
-to {
-    transform: translateX(0);
-}
-}
 
 :root {
     --background-image: linear-gradient(var(--color-slate-900), var(--color-blue-950));
@@ -27,10 +19,6 @@ to {
 /*     --foreground: #ededed; */
 /*   } */
 /* } */
-
-.term-card {
-    animation: slideInFromRight .3s ease-out forwards;
-}
 
 body {
     background-image: var(--background-image);
