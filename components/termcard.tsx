@@ -1,6 +1,7 @@
 import reactStringReplace from 'react-string-replace'
 import './termcard.css'
 import './mana.min.css'
+import Link from 'next/link'
 
 export enum TermType {
     Ability = "Ability",
@@ -43,9 +44,8 @@ function ParseDescription(description: string[]) {
     return out
 }
 
-export default function TermCard({term, delay}: {term: GlossaryTerm, delay: number}) {
+export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, delay: number, addToList: (s: string) => void}) {
     const {name, type, description, source, quote, synonyms, see_also} = term
-
     const parsed_description = ParseDescription(description)
 
     //Add links to See Also
@@ -56,7 +56,7 @@ export default function TermCard({term, delay}: {term: GlossaryTerm, delay: numb
                             .join("")
         return <span key={term}>
             {!!i && ", "}
-            <a href={`/?term=${link}`} className='underline'>{term}</a>
+            <Link href={`/?term=${link}`} onNavigate={(event) => {event.preventDefault(); addToList(link)}} className='underline'>{term}</Link>
         </span>
     })
 
