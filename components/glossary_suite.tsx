@@ -5,7 +5,6 @@ import Fuse from "fuse.js"
 import TermCard from "@/components/termcard"
 import {GlossaryTerm} from "@/components/termcard"
 import data from "@/public/glossary/terms.json"
-import { link } from "fs"
 
 export default function GlossarySuite() {
     const glossary: GlossaryTerm[] = data as GlossaryTerm[]
@@ -14,9 +13,7 @@ export default function GlossarySuite() {
         linked_term ? glossary.filter((t) => t.name.replace(/\s/g, "") === linked_term) : glossary
     )
 
-
     function HandleSearchKeyDown(event) {
-        console.log("searching")
         if ((event.which || event.keyCode) != 13) return
 
         const search: string = event.target.value
@@ -32,11 +29,11 @@ export default function GlossarySuite() {
 
     function AddToList(link:string) {
         const term = glossary.filter((t) => t.name.replace(/\s/g, "") === link)
-        if (term.length) setListTerms(listTerms.concat(term))
+        if (term.length && !listTerms.filter((t) => t.name.replace(/\s/g, "") === link).length) setListTerms(listTerms.concat(term))
     }
 
     let delay = 0.0
-    const cards = glossary.map((term,i) => <TermCard key={term.name + i} term={term} delay={delay += 0.03} addToList={AddToList} />)
+    const cards = listTerms.map((term,i) => <TermCard key={term.name + i} term={term} delay={delay += 0.03} addToList={AddToList} />)
 
     return (
         <div className="flex flex-col mx-auto gap-4 p-2">

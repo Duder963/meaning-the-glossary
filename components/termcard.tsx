@@ -22,29 +22,30 @@ export interface GlossaryTerm {
     see_also: string[]
 }
 
-function ParseDescription(description: string[]) {
-    //In which duder reinvents parts of markdown
-    let out: any = description.join("\n")
-
-    //Inject mana symbols. I learned some regex for this. Kill me
-    out = reactStringReplace(out, /(\{(?:W|U|B|R|G|C)\})/gm, (match,i) => <i key={match+i} className={`ms ms-${match[1].toLowerCase()} ms-cost`} />)
-
-    //Link to terms within glossary
-    out = reactStringReplace(out, /\{(.*?)\}/, (match,i) => {
-        const link: string = match
-                            .split(" ")
-                            .map(w => w[0].toUpperCase()+w.slice(1))
-                            .join("")
-        return <a key={match+i} href={`/?term=${link}`} className='underline'>{match}</a>
-    })
-
-    //Link to external sites. TODO
-
-    //surprise tool that might help us later: “
-    return out
-}
 
 export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, delay: number, addToList: (s: string) => void}) {
+    function ParseDescription(description: string[]) {
+        //In which duder reinvents parts of markdown
+        let out: any = description.join("\n")
+
+        //Inject mana symbols. I learned some regex for this. Kill me
+        out = reactStringReplace(out, /(\{(?:W|U|B|R|G|C)\})/gm, (match,i) => <i key={match+i} className={`ms ms-${match[1].toLowerCase()} ms-cost`} />)
+
+        //Link to terms within glossary
+        out = reactStringReplace(out, /\{(.*?)\}/, (match,i) => {
+            const link: string = match
+            .split(" ")
+            .map(w => w[0].toUpperCase()+w.slice(1))
+            .join("")
+            return <a key={match+i} onClick={(event) => {event.preventDefault(); addToList(link)}} href={`/?term=${link}`} className='underline'>{match}</a>
+        })
+
+        //Link to external sites. TODO
+
+        //surprise tool that might help us later: “
+        return out
+    }
+
     const {name, type, description, source, quote, synonyms, see_also} = term
     const parsed_description = ParseDescription(description)
 
@@ -56,7 +57,7 @@ export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, 
                             .join("")
         return <span key={term}>
             {!!i && ", "}
-            <Link href={`/?term=${link}`} onNavigate={(event) => {event.preventDefault(); addToList(link)}} className='underline'>{term}</Link>
+            <a href={`/?term=${link}`} onClick={(event) => {event.preventDefault(); addToList(link)}} className='underline'>{term}</a>
         </span>
     })
 
