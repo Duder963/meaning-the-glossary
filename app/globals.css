@@ -6,6 +6,14 @@
     --foreground: #ededed;
 }
 
+@theme{
+    --color-plains: #f9f9f4;
+    --color-island: #0d66aa;
+    --color-swamp: #140a00;
+    --color-mountain: #d31f28;
+    --color-forest: #00723d;
+}
+
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);

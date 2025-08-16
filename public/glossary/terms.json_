@@ -324,7 +324,7 @@
         "name": "Commander",
         "type": "Format",
         "description": [
-            "A highly popular {multiplayer} format of MTG. Four players battle each other with 100 card decks, each with a legendary creature designated as their commander. The commander resides in a special zone, returns to that zone on death or {exile}, and can be resummoned for an ever increasing mana tax. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
+            "A highly popular {multiplayer} format of MTG. Four players battle each other with 100 card decks, each with a legendary creature designated as their commander. The commander resides in a special zone, returns to that zone on death or exile, and can be resummoned for an ever increasing mana tax. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
         ],
         "source": "",
         "quote": "",
@@ -561,9 +561,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-            "Slow Land"
-        ]
+        "see_also": ["Slow Land"]
     },
     {
         "name": "Fast Mana",
@@ -1036,7 +1034,7 @@
         "name": "Pitch",
         "type": "Slang",
         "description": [
-            "To discard or {exile} a card from the hand as part of a cost."
+            "To discard or exile a card from the hand as part of a cost."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1292,9 +1290,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-            "Fast Land"
-        ]
+        "see_also": ["Fast Land"]
     },
     {
         "name": "Spellslinger",
@@ -1365,13 +1361,13 @@
         "see_also": []
     },
     {
-        "name": "Superfriends",
+        "name": "Singleton",
         "type": "Slang",
         "description": [
-            "A {planeswalker} focused deck centered around having multiple on the field at the same time. This makes it more difficult to eliminate all planeswalkers before one can cast its ultimate. Named after the classic DC superhero cartoon."
+            "A single instance of a card in a deck. Also refers to a deck restriction where every card aside from basic lands must be a singleton."
         ],
         "source": "MTG Wiki",
-        "quote": "I'm kinda hype for the inevitable DC Universes Beyond set so I can build a Superfriends Superfriends deck.",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1389,41 +1385,6 @@
         ]
     },
     {
-        "name": "Tapped Out",
-        "type": "Slang",
-        "description": [
-            "A player who has expended all of their mana sources, and has potentially tapped all of their creatures as well. A tapped out player most likely cannot use {interaction}, leaving themselves vulnerable to powerful spells."
-        ],
-        "source": "MTG Wiki",
-        "quote": "I think it's worth it to tap out here. You probably can't do anything, right?",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Tempo",
-        "type": "Slang",
-        "description": [
-            "The pace at which one plays threats, both through hitting their {land drop} and casting a creature or other threat each turn."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Temur",
-        "type": "Concept",
-        "description": [
-            "The {wedge} combination of {G} {U} {R}, named after the respective clan of Tarkir"
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [
-            "Green/Blue/Red"
-        ],
-        "see_also": []
-    },
-    {
         "name": "Topdeck",
         "type": "Slang",
         "description": [
@@ -1432,110 +1393,13 @@
         "source": "MTG Wiki",
         "quote": "Nah don't worry I'll just topdeck some removal",
         "synonyms": [
-            "Mise",
-            "Rip"
+            "mise",
+            "rip"
         ],
         "see_also": [
+            "word3",
+            "word4"
         ]
-    },
-    {
-        "name": "Trade",
-        "type": "Slang",
-        "description": [
-            "In the context of playing the game, two creatures dealing lethal damage to each other."
-        ],
-        "source": "MTG Wiki",
-        "quote": "Imagine actually trading the cards for this trading card game.",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Tutor",
-        "type": "Slang",
-        "description": [
-            "A spell which allows a player to search their library for a specific card, placing it on the field, in the hand, or on top of the library. Named after {Demonic Tutor} and the four tutors from the Mirage block"
-        ],
-        "source": "MTG Wiki",
-        "quote": "I'm gonna tutor for Vampiric Tutor, and use that to tutor for my win con.",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Typal",
-        "type": "Slang",
-        "description": [
-            "A deck centered around a specific creature type, using creatures of that type and cards which can bolster it."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": ["Tribal"],
-        "see_also": []
-    },
-    {
-        "name": "Ultimate",
-        "type": "Slang",
-        "description": [
-            "A {planeswalker}'s ability which provides a massive effect at the cost of several loyalty counters. Ultimates are often able to massively swing the game in their controller's favor, provided the player can accrue the counters needed to use it."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Un-set",
-        "type": "Slang",
-        "description": [
-            "Humorous sets produced by Wizards of the Coast which are designed for casual play, and whose cards are illegal outside of the set. So far there have been five Un-sets: Unglued, Unhinged, Unstable, Unsanctioned, and Unfinity."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [],
-        "see_also": ["Silver Border", "Acorn"]
-    },
-    {
-        "name": "Value",
-        "type": "Slang",
-        "description": [
-            "The advantage a player gains in playing a card. Cards can have variable value depending on the game state or means in which it was cast."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Vanilla",
-        "type": "Slang",
-        "description": [
-            "A creature without any abilities, just its power and toughness."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Variance",
-        "type": "Slang",
-        "description": [
-            "How differently a gameplay element plays out from one play experience to the next. Factors like deck order, getting to play first, and the opponents' decks can influence variance."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Voltron",
-        "type": "Slang",
-        "description": [
-            "A deck archetype centered around casting one particularly strong creature, then improving it with various {aura} and {equipment} cards. Often seen in Commander, where the constant presence of the commander and the commander damage rule make Voltron far more consistent. Named after the titular cartoon/anime/westernized frankenstein of an anime."
-        ],
-        "source": "MTG Wiki",
-        "quote": "I get why people play Voltron. I think my commander is cool, and I want them to be the one doing the cool things.",
-        "synonyms": [],
-        "see_also": []
     },
     {
         "name": "Wedge",
@@ -1555,17 +1419,6 @@
         "see_also": []
     },
     {
-        "name": "Wheel",
-        "type": "Slang",
-        "description": [
-            "An effect which makes one or more players, often all of them, discard their hand and draw a new hand. Named after Wheel of Fortune."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
         "name": "Wide",
         "type": "Slang",
         "description": [
@@ -1574,236 +1427,6 @@
         "source": "MTG Wiki",
         "quote": "Ok I know you like going wide, but seriously how'd you make 20 guys in one turn?",
         "synonyms": [],
-        "see_also": [
-            "Tall"
-        ]
-    },
-    {
-        "name": "Win Condition",
-        "type": "Slang",
-        "description": [
-            "The method a deck uses to win. For example, {aggro} wants a lot of cheap creatures, while {combo} wants to get certain cards on the field at the same time."
-        ],
-        "source": "MTG Wiki",
-        "quote": "",
-        "synonyms": ["Wincon"],
-        "see_also": []
-    },
-    {
-        "name": "Counter",
-        "type": "Keyword/Concept",
-        "description": [
-            "Keyword - Removes an ability from the {stack} without resolution, sending it to the graveyard, or potentially {exile}.",
-            "Concept - A marker placed on a card or player to denote a modification to its characteristics. Examples include +1/+1, charge, and time counters, among many others."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Exile",
-        "type": "Concept/Keyword",
-        "description": [
-            "Concept - A game {zone} outside of the field of play. Exile mainly functions as a second graveyard, one which is far more difficult to return a card from. However, many abilities can exile a card and return it after some condition, or otherwise use exile as something other than a final resting place.",
-            "Keyword - To send a card to the exile zone."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Fight",
-        "type": "Keyword",
-        "description": [
-            "A keyword which makes two creatures damage each other, as if an attacking creature was being blocked, but performed as an out of combat effect."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Mill",
-        "type": "",
-        "description": [
-            "Put the top X cards of your library into the graveyard."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Sacrifice",
-        "type": "Keyword",
-        "description": [
-            "To put a permanent you control into its owners graveyard. Note this is not destroying the creature, but sending it directly to the graveyard, so it bypasses indestructable."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Scry",
-        "type": "Keyword",
-        "description": [
-            "Take the top X cards of the library, and place any of them on the top or bottom of the library in any order you wish."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Tap",
-        "type": "Keyword",
-        "description": [
-            "Rotate an upright card 90 degrees to signify it has been 'used'."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Deathtouch",
-        "type": "Keyword",
-        "description": [
-            "Any amount of damage this deals to a creature is enough to destroy it."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Defender",
-        "type": "Keyword",
-        "description": [
-            "This creature cannot attack."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Double Strike",
-        "type": "Keyword",
-        "description": [
-            "This creature deals both {first strike} and normal combat damage."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "First Strike",
-        "type": "Keyword",
-        "description": [
-            "This creature deals damage in a damage step before the regular damage step."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Flash",
-        "type": "Keyword",
-        "description": [
-            "You may cast this spell any time you could cast an {instant}."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Flying",
-        "type": "Keyword",
-        "description": [
-            "This creature can't be blocked except by creatures with flying or {reach}"
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Haste",
-        "type": "Keyword",
-        "description": [
-            "This creature can attack and tap as soon as it comes under your control."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Hexproof",
-        "type": "Keyword",
-        "description": [
-            "This permanent can't be the target of spells or abilities your opponents control"
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Indestructible",
-        "type": "Keyword",
-        "description": [
-            "Damage and effects that say 'destroy' don’t destroy this."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Lifelink",
-        "type": "Keyword",
-        "description": [
-            "Damage dealt by this creature also causes you to gain that much life"
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Menace",
-        "type": "Keyword",
-        "description": [
-            "This creature can't be blocked except by two or more creatures."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "WUBRG",
-        "type": "Slang",
-        "description": [
-            "The names and orders of five colors of Magic: The Gathering:",
-            "White {W}",
-            "blUe {U}",
-            "Black {B}",
-            "Red {R}",
-            "Green {G}",
-            "Pronounced 'woo-berg'."
-        ],
-        "source": "MTG Wiki",
-        "quote": "Why is Blue U? Because Black is the selfish color, so it steals the B. Why is it not L? Cause Blue has never taken an L in its life.",
-        "synonyms": [],
-        "see_also": []
+        "see_also": ["Tall"]
     }
 ]
