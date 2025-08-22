@@ -28,7 +28,7 @@ export default function RootLayout({
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
-                <div className="flex flex-col gap-2 place-content-between w-screen mx-auto">
+                <div className="flex flex-col gap-2 p-4 pd-8 place-content-between w-screen mx-auto">
                     <div>
                         <h1 className="text-3xl sm:text-4xl lg:text-5xl text-center text-orange-400 font-bold">
                             {/* next/link doesn't reload page on click */}
