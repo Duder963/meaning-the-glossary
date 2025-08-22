@@ -5,3 +5,4 @@ export default function Credits() {
             <p>Wizards of the Coast - Stewarding Magic</p>
         </div>
     )
+}
