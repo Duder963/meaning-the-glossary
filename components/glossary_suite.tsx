@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react"
 import { useSearchParams } from "next/navigation"
+import { Suspense } from 'react'
 import Fuse from "fuse.js"
 import TermCard from "@/components/termcard"
 import {GlossaryTerm} from "@/components/termcard"
@@ -18,7 +19,7 @@ export default function GlossarySuite() {
     )
 
     // idk what type it wants so it gets the any type
-    function HandleSearchKeyDown(event) {
+    function HandleSearchKeyDown(event: any) {
         if ((event.which || event.keyCode) != 13) return
 
         const search: string = event.target.value
