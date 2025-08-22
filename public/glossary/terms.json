@@ -13,10 +13,23 @@
         "see_also": []
     },
     {
+        "name": "Activated Ability",
+        "type": "Keyword",
+        "description": [
+            "An ability that can be activated by paying its cost. Follows the format 'COST: Ability'. Activated abilities can be activated at {instant} speed."
+        ],
+        "source": "",
+        "quote": "If you're ever in doubt, the colon will help you out",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Aggro",
         "type": "Slang",
         "description": [
-            "One of the three main deck archetypes. An archetype highly dependent on creature combat and aggressive attacks. Aggro decks generally have a low {mana curve} and try to overwhelm the opponent before they can establish their plan."
+            "One of the three main deck archetypes, an archetype highly dependent on creature combat and aggressive attacks. Aggro decks generally have a low {mana curve} and try to overwhelm the opponent before they can establish their plan.",
+            "",
+            "In the context of a draft, i.e. {BREAD}, a generic attacker that can apply pressure to the opponent."
         ],
         "source": "MTG Wiki",
         "quote": "I love playing Aggro. I bought the monsters I'm gonna swing with em",
@@ -60,7 +73,7 @@
         "name": "Anthem",
         "type": "Slang",
         "description": [
-            "Any effect which buffs all of a player's creatures. Named after Glorious Anthem."
+            "Any effect which powers up all of a player's creatures. Named after Glorious Anthem."
         ],
         "source": "MTG Wiki",
         "quote": "I play Always Watching, it's an anthem giving my nontoken creatures +1/+1",
@@ -68,15 +81,39 @@
         "see_also": []
     },
     {
+        "name": "APNAP",
+        "type": "Concept",
+        "description": [
+            "Active Player, Non-Active Player. Whenever multiple players resolve an effect at the same time, first the active player does so, then the other players in turn order."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Aristocrat",
         "type": "Slang",
         "description": [
-            "A creature with an {activated ability} involving sacrificing another creature. Also refers to a deck centered around this strategy"
+            "A creature with an {activated ability} where its controller must {sacrifice} another creature. Also refers to a deck archetype centered around this strategy."
         ],
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
         "see_also": []
+    },
+    {
+        "name": "Aura",
+        "type": "Type",
+        "description": [
+            "An {enchantment} which targets a specific creature, providing a beneficial effect, and going to the graveyard upon that creature's {removal}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Equipment"
+        ]
     },
     {
         "name": "Azorius",
@@ -112,14 +149,14 @@
         "name": "Basic Land",
         "type": "Type",
         "description": [
-            "The six core lands which can tap to produce a color of mana, in addition to their snow-covered variants. These lands are:",
+            "The six core lands which a player can {tap} to produce a color of mana, in addition to the {snow} covered variants. These lands are:",
             "Plains {W}",
             "Island {U}",
             "Swamp {B}",
             "Mountain {R}",
             "Forest {G}",
             "Wastes {C}",
-            "Basic lands are one of the few cards which bypass deckbuilding restrictions, such as the four-of-a-kind rule in 60-card formats, and the singleton rule in Commander"
+            "Basic lands are one of the few cards which bypass deckbuilding restrictions, such as the four-of-a-kind rule in 60-card formats, and the {singleton} rule in {Commander}"
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -132,7 +169,7 @@
         "name": "Battle",
         "type": "Type",
         "description": [
-            "A card type introduced in March of the Machine, battles are attackable permanants with abilities that have a non-replenishing defense, similar to a {planeswalker}. Currently, the only legal subtype of battle is a {Siege}"
+            "A card type introduced in March of the Machine, battles are attackable permanants with abilities which has a non-replenishing defense, similar to a {planeswalker}. Currently, the only legal subtype of battle is a {Siege}"
         ],
         "source": "Description Source",
         "quote": "This is a quote using the word - Quote Sayer",
@@ -140,10 +177,25 @@
         "see_also": []
     },
     {
+        "name": "Beginning Phase",
+        "type": "Concept",
+        "description": [
+            "The beginning {phase} of each turn. Broken down into three steps:",
+            "Untap: The active player untaps any tapped permanents. In addition, phasing creatures phase in/out, and the day and night cycle occurs, all before the untapping of permanents.",
+            "Upkeep: Any abilities which trigger on untap or upkeep go onto the {stack}.",
+            "Draw: The active player draws a card. Then any abilities which trigger on the draw step go on the stack.",
+            "After this phase is the first {main phase}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Board Wipe",
         "type": "Slang",
         "description": [
-            "A spell that somehow disposes of all creatures currently in play. Board wipes are typically symmetrical, wiping out the caster's creatures as well, however asymmetrical boardwipes do exist, but are usually much more expensive"
+            "A spell that somehow disposes of all creatures currently in play. Board wipes are typically symmetrical, wiping out the caster's creatures as well. Asymmetrical boardwipes do exist, however, but are usually much more expensive to compensate."
         ],
         "source": "MTG Wiki",
         "quote": "Yeah this board looks bad for me, imma just cast a board wipe",
@@ -154,7 +206,7 @@
         "name": "Bomb",
         "type": "Slang",
         "description": [
-            "A card powerful enough to change the course of the game on its own. Usually used in the context of limited formats, where drafting or opening a bomb greatly improves one's chances."
+            "A card powerful enough to change the course of the game on its own. Usually used in the context of {limited} formats, where drafting or opening a bomb greatly improves one's chances at victory."
         ],
         "source": "MTG Wiki",
         "quote": "I got carried so hard by that bomb I drafted last time",
@@ -192,15 +244,80 @@
         "see_also": []
     },
     {
+        "name": "Bracket 1",
+        "type": "Concept",
+        "description": [
+            "Exhibition: Intended for decks more focused on showcasing a theme or experience than actually winning. No {Game Changers}, intentional two-card infinite combos, mass land destruction, or extra turns, and few {tutor} cards."
+        ],
+        "source": "",
+        "quote": "I built a bracket 1 deck where all the cards are Rush lyrics.",
+        "synonyms": [],
+        "see_also": [
+            "Commander Bracket"
+        ]
+    },
+    {
+        "name": "Bracket 2",
+        "type": "Concept",
+        "description": [
+            "Core: Decks are focused and have a theme, but with sub-optimal cards and strategies. Comparable to the average precon. No {Game Changers}, intentional two-card infinite combos, or mass land destruction, few {tutor} cards, and extra turns should be sparse and not chained together."
+        ],
+        "source": "",
+        "quote": "You're telling me Explorers of the Deep is bracket 2?",
+        "synonyms": [],
+        "see_also": [
+            "Commander Bracket"
+        ]
+    },
+    {
+        "name": "Bracket 3",
+        "type": "Concept",
+        "description": [
+            "Upgraded: Every card in a deck is thoughtfully chosen and synergistic, with optimal, though not the absolute best, cards and strategies. Up to three {Game Changers} are allowed, No intentional early game two-card infinite combos, no mass land destruction, and extra turns should be sparse and not chained together."
+        ],
+        "source": "",
+        "quote": "Yeah my deck's about a 7. Uh I mean bracket 3.",
+        "synonyms": [],
+        "see_also": [
+            "Commander Bracket"
+        ]
+    },
+    {
+        "name": "Bracket 4",
+        "type": "Concept",
+        "description": [
+            "Optimized: Decks using the strongest cards possible, aiming to optimize their strategy to ensure victory on a competitive level. No limits aside from banned cards."
+        ],
+        "source": "I'm gonna shove every game changer into my deck and call it bracket 4.",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Commander Bracket"
+        ]
+    },
+    {
+        "name": "Bracket 5",
+        "type": "Concept",
+        "description": [
+            "{cEDH}: The most absolute powerful decks in the metagame, with the very best commanders, cards, and strategies. No limits aside from banned cards"
+        ],
+        "source": "",
+        "quote": "If you have to ask if your deck is Bracket 5, it's not.",
+        "synonyms": [],
+        "see_also": [
+            "Commander Bracket"
+        ]
+    },
+    {
         "name": "BREAD",
         "type": "Slang",
         "description": [
-            "A draft strategy to help prioritize which cards to draft. The term is an acronym for",
-            "- Bomb",
-            "- Removal",
-            "- Evasion",
-            "- Aggro",
-            "- Dud",
+            "A {draft} strategy to help prioritize which cards to {draft}. The term is an acronym for",
+            "- {Bomb}",
+            "- {Removal}",
+            "- {Evasion}",
+            "- {Aggro}",
+            "- {Dud}",
             "The term is prolific, however some consider it outdated as a result of modern set design, as well as the nebulous nature of the evasion, aggro, and dud categories. Nonetheless, it is still a helpful strategy for people starting out with drafting"
         ],
         "source": "MTG Wiki",
@@ -212,18 +329,20 @@
         "name": "Burn",
         "type": "Slang",
         "description": [
-            "A source of direct damage, that being damage dealt outside of combat"
+            "A source of direct damage, or damage dealt outside of combat"
         ],
         "source": "MTG Wiki",
-        "quote": "I'll use Lightning Bolt to burn you for 3 damage",
-        "synonyms": [],
+        "quote": "I'll use Lightning Bolt to burn you for three.",
+        "synonyms": [
+            "Direct Damage"
+        ],
         "see_also": []
     },
     {
         "name": "Cantrip",
         "type": "Slang",
         "description": [
-            "A spell or ability with a 'Draw a Card' effect tacked on. A spell with this ability effectively replaces itself in the hand"
+            "A spell or ability with a 'Draw a Card' effect tacked on. A spell with this ability effectively replaces itself in the hand."
         ],
         "source": "MTG Wiki",
         "quote": "I can't believe that spell's a cantrip considering how broken it is",
@@ -234,10 +353,10 @@
         "name": "CEDH",
         "type": "Slang",
         "description": [
-            "Competitive Elder Dragon Highlander. A subset of Commander focused around playing to win as efficiently as possible with the strongest possible decks. Game Changers, infinite combos, land destruction, anything goes as long as it hasn't been banned."
+            "Competitive Elder Dragon Highlander. A subset of {Commander} focused around playing to win as efficiently as possible with the strongest possible decks. {Game Changers}, infinite combos, land destruction, anything goes except for banned cards."
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "I've been getting into CEDH lately and it's crazy just how insane some of these decks are.",
         "synonyms": [],
         "see_also": []
     },
@@ -245,7 +364,7 @@
         "name": "Chaff",
         "type": "Slang",
         "description": [
-            "Unremarkable cards, unlikely to be included in a constructed deck. Typically common or uncommon cards, but there are exceptions. Very frequently used in the context of 'draft chaff,' cards that are usually considered useless outside of a limited format. "
+            "Unremarkable cards, unlikely to be included in a {constructed} deck. Typically common or uncommon cards, but there are exceptions. Very frequently used in the context of 'draft chaff,' cards that are usually considered useless outside of a {limited} format, or even in the format."
         ],
         "source": "MTG Wiki",
         "quote": "Wow this whole pack is nothing but chaff that's crazy",
@@ -256,7 +375,7 @@
         "name": "Cheat",
         "type": "Slang",
         "description": [
-            "To play a card with a high mana cost, but actually paying little, if any, of the cost. Commonly achieved with spells and abilities that directly put cards onto the battlefield"
+            "To play a card with a high mana cost, but actually paying little, if any, of the cost. Commonly achieved with spells and abilities that directly put cards onto the battlefield."
         ],
         "source": "MTG Wiki",
         "quote": "IT'S TURN 4 HOW DID YOU CHEAT OUT ETALI THAT QUICK???",
@@ -267,7 +386,7 @@
         "name": "Chump Block",
         "type": "Slang",
         "description": [
-            "A player blocking a high power/toughness creature with a low power/toughness creature, the only goal being to prevent the big creature from damaging them. A chump blocker is any creature used for such a purpose"
+            "A player blocking a high power/toughness creature with a low power/toughness creature, the only goal being to prevent the big creature from damaging them. A chump blocker is any creature used for such a purpose."
         ],
         "source": "MTG Wiki",
         "quote": "You're swinging with a 28/28? Ok, I'll just chump block with my human token",
@@ -278,10 +397,10 @@
         "name": "Clock",
         "type": "Slang",
         "description": [
-            "A threat that will lead to victory over an opponent in a finite number of turns, giving the opponent a time limit in which they must either win or answer the threat"
+            "A threat that will lead to victory over an opponent in a finite number of turns, giving the opponent a time limit in which they must either win or answer the threat."
         ],
         "source": "MTG Wiki",
-        "quote": "You're at 10 health and can't block my 2/2 flyer. You're on a 5 turn clock.",
+        "quote": "You're at 10 health and can't block my 4/2 flyer. You're on a 3 turn clock.",
         "synonyms": [],
         "see_also": []
     },
@@ -297,10 +416,26 @@
         "see_also": []
     },
     {
+        "name": "Combat Phase",
+        "type": "Concept",
+        "description": [
+            "The phase where creatures can attack and block. Broken down into five steps:",
+            "Beginning of Combat: The last chance for a player to tap a creaeture or otherwise prevent an opponent's creature from being an attacker.",
+            "Declare Attackers: The active player may declare which legal attackers will attack, and what they will target.",
+            "Declare Blockers: Any players being attacked may block. A creature can only block one other creature, but multiple creatures can block the same creature. If a creature without {trample} is blocked, its damage will not reach the defender, even if the blocker is disposed of.",
+            "Combat Damage: If multiple creatures block a creature, the attacking player may assign how the damage is delivered. Then any {first strike} damage is evaluated, then regular damage. All damage evaluated occurs at the same time.",
+            "End of Combat: Any effects which trigger at the end of combat go on the {stack}. Then a round of priority occurs."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Combat Trick",
         "type": "Slang",
         "description": [
-            "An instant or activated ability that buffs or debuffs a creature, usually played after attacks and blocks have been declared to swing the outcome of the interaction"
+            "An {instant} or {activated ability} that buffs or debuffs a creature, usually played after attacks and blocks have been declared to swing the outcome of the interaction"
         ],
         "source": "MTG Wiki",
         "quote": "Hm... I could block her 2/2 with my 3/3, but she might have a combat trick up her sleeve...",
@@ -312,11 +447,27 @@
         "type": "Slang",
         "description": [
             "A combination of multiple cards which produces a beneficial effect, usually greater than the benefits from the separate cards.",
-            "Also refers to one of the three main deck archetypes, a combo deck uses a combo as its win condition, and is thus designed to set up and protect that combo",
-            "Can also be used as a verb when a player initiates the combo, as in to 'combo off'"
+            "",
+            "Also refers to one of the three main deck archetypes, a combo deck uses a combo as its win condition, and is thus designed to set up and protect that combo.",
+            "",
+            "Can also be used as a verb when a player initiates the combo, as in to 'combo off'."
         ],
         "source": "MTG Wiki",
         "quote": "This guy's combo deck is nuts! Every time he just draws two cards, tutors the rest, and combos off by turn 5!",
+        "synonyms": [],
+        "see_also": [
+            "Aggro",
+            "Control"
+        ]
+    },
+    {
+        "name": "Command Zone",
+        "type": "Concept",
+        "description": [
+            "A special zone for a player's commander in a {Commander} game. The commander can be cast from the command zone and may return to it upon death, {exile}, or other {removal}. However, a commander {tax} of two mana is added after each casting of the commander."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -324,7 +475,7 @@
         "name": "Commander",
         "type": "Format",
         "description": [
-            "A highly popular {multiplayer} format of MTG. Four players battle each other with 100 card decks, each with a legendary creature designated as their commander. The commander resides in a special zone, returns to that zone on death or {exile}, and can be resummoned for an ever increasing mana tax. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
+            "A highly popular {multiplayer} {constructed} format of MTG. Four players battle each other with 100-card decks, each with a legendary creature designated as their commander, who resides in the {command zone}. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
         ],
         "source": "",
         "quote": "",
@@ -332,6 +483,44 @@
             "EDH"
         ],
         "see_also": []
+    },
+    {
+        "name": "Commander Bracket",
+        "type": "Concept",
+        "description": [
+            "A system created by the {Commander} Format Panel to help players communicate the power of their deck in a matchmaking setting. There are five brackets, and the higher the bracket, the less restrictions on {Game Changers} and play patterns.",
+            "",
+            "Note that the provided restrictions are guidelines and are meant to be taken in good faith, not nitpicked to misrepresent a deck's power level. A bad deck with a game changer is automatically Bracket 3, but a Bracket 4 deck could be built without game changers, infinites, mass land destruction, or tutors. Of course, {Rule Zero} always applies."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Bracket 1",
+            "Bracket 2",
+            "Bracket 3",
+            "Bracket 4",
+            "Bracket 5"
+        ]
+    },
+    {
+        "name": "Constructed",
+        "type": "Concept",
+        "description": [
+            "Any format which allows players to construct decks beforehand using any of the legal cards within the format. The major constructed formats are:",
+            "{Standard}",
+            "{Modern}",
+            "{Pioneer}",
+            "{Commander}",
+            "{Vintage}",
+            "{Legacy}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Limited"
+        ]
     },
     {
         "name": "Control",
@@ -342,16 +531,43 @@
         "source": "MTG Wiki",
         "quote": "I can't believe she's a control player. I thought she was cool...",
         "synonyms": [],
+        "see_also": [
+            "Aggro",
+            "Combo"
+        ]
+    },
+    {
+        "name": "Convoke",
+        "type": "Keyword",
+        "description": [
+            "Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Counter",
+        "type": "Keyword/Concept",
+        "description": [
+            "Keyword - Removes an ability from the {stack} without resolution, sending it to the graveyard, or potentially {exile}.",
+            "",
+            "Concept - A marker placed on a card or player to denote a modification to its characteristics. Examples include +1/+1, charge, and time counters, among many others."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
         "see_also": []
     },
     {
         "name": "Cube",
         "type": "Format",
         "description": [
-            "A casual format where players create a large pool of cards they then proceed to draft from, in essence creating their very own Magic: The Gathering set."
+            "A casual format where players create a large pool of cards they then proceed to {draft} from, in essence creating their very own Magic: The Gathering set."
         ],
         "source": "MTG Wiki",
-        "quote": "One of these days I'm gonna make my Sliver cube, just you wait",
+        "quote": "One of these days I'm gonna make my Sliver cube, just you wait.",
         "synonyms": [],
         "see_also": []
     },
@@ -367,13 +583,35 @@
         "see_also": []
     },
     {
+        "name": "Deathtouch",
+        "type": "Keyword",
+        "description": [
+            "Any amount of damage this creature deals to a creature is enough to destroy it."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Decking",
         "type": "Slang",
         "description": [
-            "To run a player's library out of cards, thus causing them to lose the game for being unable to draw cards when required to do so"
+            "When a player loses the game because they have to draw from an empty {library}."
         ],
         "source": "MTG Wiki",
-        "quote": "You know my buddy once accidentally decked himself out last prerelease.",
+        "quote": "You know my buddy once accidentally decked himself out at a prerelease.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Defender",
+        "type": "Keyword",
+        "description": [
+            "This creature cannot attack."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -416,6 +654,30 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
+        "see_also": [
+            "Mana Dork"
+        ]
+    },
+    {
+        "name": "Double Strike",
+        "type": "Keyword",
+        "description": [
+            "This creature deals both {first strike} and normal combat damage."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Draft",
+        "type": "Format",
+        "description": [
+            "A format where each player receives 3 booster packs and selects cards one at a time from each players packs. Each player opens a pack, picks a single card, and passes the remaining cards to the next player, where they continuously repeat picking and passing. After every card from that round of packs is drafted, the process repeats with the remaining packs, changing pass direction each pack. Players then build a 40-card deck from their drafted cards, with basic lands provided, and no other restrictions."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
         "see_also": []
     },
     {
@@ -425,7 +687,18 @@
             "An effect that causes an opponent or creature to take damage or lose life, while the effect's controller gains life."
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Dredge",
+        "type": "Keyword",
+        "description": [
+            "Dredge N - If you would draw a card, instead you may {mill} N cards. If you do, return this card from your graveyard to your hand."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -433,7 +706,7 @@
         "name": "Drop",
         "type": "Slang",
         "description": [
-            "A permanent which can be played without major strategic consideration. Usually used in the context of '2-drop', '3-drop' etc., referring to the turn when a permanent can first be played, which is usually equal to its mana value."
+            "A permanent which can be played without major strategic consideration. Usually used in the context of '2-drop', '3-drop', etc., referring to the turn when a permanent can first be played, which is usually equal to its mana value."
         ],
         "source": "MTG Wiki",
         "quote": "It's crucial to my plan that I play my commander as a 3-drop",
@@ -444,7 +717,8 @@
         "name": "Dual Land",
         "type": "Concept",
         "description": [
-            "Any of the non-basic lands which can produce two colors of mana. Especially refers to the original ten dual lands which featured no restrictions on their use, making them incredibly powerful and rare, especially since all ten are on the reserved list",
+            "A non-{basic land} land which can produce two colors of mana. Especially refers to the original ten dual lands which featured no restrictions on their use, making them incredibly powerful and rare, especially since all ten are on the {reserved list}",
+            "",
             "Several different kinds of dual lands exist, each with their own advantages and disadvantages. For a comprehensive list of each category of dual lands, check back later. Maybe Duder'll get around to it."
         ],
         "source": "MTG Wiki",
@@ -477,6 +751,30 @@
         "see_also": []
     },
     {
+        "name": "Enchantment",
+        "type": "Type",
+        "description": [
+            "A card type representing a persistent magical effect. Usually applies to multiple permanents, if not the entire board, but an {aura} applies to only one permanent."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "End Phase",
+        "type": "Keyword",
+        "description": [
+            "The final phase of a turn. Broken down into two steps:",
+            "End Step: Any effects which trigger at the end of turn go on the stack. Then a round of {priority} occurs",
+            "Cleanup: If necessary, the active player discards down to seven cards in hand. Then, any damage marked on a permanant is removed, and effects which last until end of turn end, both occuring at the same time."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Enemy Colors",
         "type": "Concept",
         "description": [
@@ -503,6 +801,28 @@
         ],
         "source": "MTG Wiki",
         "quote": "If you wanna make that deck work you need to make sure to set up your draw engine",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Equip",
+        "type": "Keyword",
+        "description": [
+            "Equip X: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Equipment",
+        "type": "Type",
+        "description": [
+            "An artifact that a player can {equip} onto a creature, providing a beneficial effect. Equipment remains on the battlefield unattached upon its equipper's {removal}."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -543,11 +863,26 @@
         "name": "Evasion",
         "type": "Slang",
         "description": [
-            "Any ability of a creature that improves its chances of damaging the defending player by limiting what creatures can block it. Examples include Flying, Menace, and Horsemanship, to name a few.",
-            "Can arguably apply to other abilities which either make blocking less effective, such as Trample, or unfavorable, such as First Strike",
-            "In the context of a draft, applies to any creature featuring some evasion ability"
+            "Any ability of a creature that improves its chances of damaging the defending player by limiting what creatures can block it. Examples include Flying, Menace, and Horsemanship.",
+            "",
+            "Can arguably refer to other abilities which either make blocking less effective, i.e. {Trample}, or unfavorable, i.e. {First Strike}.",
+            "",
+            "In the context of {draft}, i.e. {BREAD}, applies to any creature featuring some evasion ability."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Exile",
+        "type": "Concept/Keyword",
+        "description": [
+            "Concept - A game zone outside of the field of play. Exile mainly functions as a second graveyard, one which is far more difficult to return a card from. However, many abilities can exile a card and return it after some condition, or otherwise use exile as someplace not part of the game.",
+            "",
+            "Keyword - To send a card to the exile zone."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -556,7 +891,7 @@
         "name": "Fast Land",
         "type": "Slang",
         "description": [
-            "A dual land that enters the battlefield untapped if the player controls a low number of other lands."
+            "A {dual land} that enters the battlefield untapped if the player controls a low number of other lands."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -577,13 +912,57 @@
         "see_also": []
     },
     {
+        "name": "Fight",
+        "type": "Keyword",
+        "description": [
+            "A {keyword} which makes two creatures damage each other, as if an attacking creature was being blocked, but performed as an out of combat effect."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "First Strike",
+        "type": "Keyword",
+        "description": [
+            "This creature deals damage in a damage round before the regular damage round."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Fizzle",
         "type": "Slang",
         "description": [
-            "When a spell or ability on the stack fails to resolve and leaves the stack due to its initial targets becoming illegal between it being cast and it resolving."
+            "When a spell or ability on the {stack} fails to resolve and leaves the stack due to its initial targets becoming illegal between it being cast and it resolving."
         ],
         "source": "MTG Wiki",
-        "quote": "Well since you blew up my elk, my invigorate will fizzle. Well played",
+        "quote": "Well since you blew up my elk, my Invigorate will fizzle. Well played",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Flash",
+        "type": "Keyword",
+        "description": [
+            "You may cast this spell any time you could cast an {instant}."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Flashback",
+        "type": "Keyword",
+        "description": [
+            "Flashback X - You may cast this card from your graveyard for its flashback cost. Then exile it."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -602,10 +981,21 @@
         "name": "Floating",
         "type": "Slang",
         "description": [
-            "Mana that a player has acquired but has not spent, caused by a spell or ability producing more mana than the player needed to spend at that time."
+            "Mana that a player has acquired but has not spent, caused by a spell or ability producing more mana than the player spent."
         ],
         "source": "MTG Wiki",
         "quote": "I'm gonna tap my Sol Ring and a Mountain, leaving one of the colorless floating, to Abrade your Sol Ring",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Flying",
+        "type": "Keyword",
+        "description": [
+            "This creature can't be blocked except by creatures with flying or {reach}"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -617,6 +1007,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "Whoops forgot that got untapped. Yeah I'm just gonna cast Fog.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Game Changers",
+        "type": "Concept",
+        "description": [
+            "Cards the {Commander} Format Panel has deemed so powerful or game-warping they must be restricted or banned below a certain {commander bracket}. While not quite ban worthy, game changers are definitely the most likely cards to get banned in the future."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -668,7 +1069,7 @@
             "A hand of cards. A player with seven cards in hand is said to have a 'full grip'."
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -714,6 +1115,17 @@
         ]
     },
     {
+        "name": "Haste",
+        "type": "Keyword",
+        "description": [
+            "This creature can attack and {tap} as soon as it comes under your control."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Hate",
         "type": "Slang",
         "description": [
@@ -721,6 +1133,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "At this point I'm throwing in Bojuka Bog just for the graveyard hate against her deck.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Hexproof",
+        "type": "Keyword",
+        "description": [
+            "This permanent can't be the target of spells or abilities your opponents control"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -736,15 +1159,52 @@
         "see_also": []
     },
     {
+        "name": "Horsemanship",
+        "type": "Keyword",
+        "description": [
+            "This creature can't be blocked except by creatures with horsemanship. Functionally {flying} without a {reach} equivalent.",
+            "",
+            "Supposedly one of the two types of {keyword} in Magic."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Impulse Draw",
         "type": "Slang",
         "description": [
-            "An effect that exiles cards from the top of the library and lets it be played on that turn only. Named after Act on Impulse."
+            "An effect that exiles cards from the top of the {library} and lets it be played on that turn only. Named after Act on Impulse."
         ],
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
         "see_also": []
+    },
+    {
+        "name": "Indestructible",
+        "type": "Keyword",
+        "description": [
+            "Damage and effects that say 'destroy' don’t destroy this."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Instant",
+        "type": "Type",
+        "description": [
+            "A one-shot spell which can be cast whenever a player has {priority}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Sorcery"
+        ]
     },
     {
         "name": "Izzet",
@@ -799,13 +1259,29 @@
         "see_also": []
     },
     {
+        "name": "Keyword",
+        "type": "Concept",
+        "description": [
+            "A word used to substitute multiple words of rules text, to reduce wordiness in describing the actions and abilities of a {permanent}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Keyword Ability",
+            "Keyword Action"
+        ]
+    },
+    {
         "name": "Kicker",
         "type": "Keyword",
         "description": [
-            "An additional cost to a spell that may be paid as it is cast, providing some additional effect. Supposedly one of the two types of keywords in Magic"
+            "An additional cost to a spell that may be paid as it is cast, providing some additional effect.",
+            "",
+            "Supposedly one of the two types of {keyword} in Magic."
         ],
         "source": "Meaning: The Glossary",
-        "quote": "Kicker {1} {B} - When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy target creature.",
+        "quote": "",
         "synonyms": [],
         "see_also": [
             "word3",
@@ -816,7 +1292,7 @@
         "name": "Land Drop",
         "type": "Slang",
         "description": [
-            "The one land players are naturally allowed to play each term, as opposed to any other lands a player may be able to play."
+            "The one land players are naturally allowed to play each turn, as opposed to any other lands a player may be able to play."
         ],
         "source": "MTG Wiki",
         "quote": "I cannot afford to miss a land drop with this deck.",
@@ -835,7 +1311,51 @@
         "see_also": []
     },
     {
-        "name": "Loot",
+        "name": "Legacy",
+        "type": "Format",
+        "description": [
+            "A {constructed} format where players construct 60-card decks where every regular card ever printed is legal. Unlike {Vintage}, there are no restricted cards, however some Vintage-legal cards are banned."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Library",
+        "type": "Concept",
+        "description": [
+            "A player's deck. Used primarily in game, whereas deck is used outside of a game."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Lifelink",
+        "type": "Keyword",
+        "description": [
+            "Damage dealt by this creature also causes you to gain that much life"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Limited",
+        "type": "Concept",
+        "description": [
+            "A format where a player's card selection more restricted than typical {constructed} formats. The major limited formats are {sealed} and {draft}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Looting",
         "type": "Slang",
         "description": [
             "The action of drawing one or more cards, then discarding one or more cards, like a reverse {Rummage}. Named after Merfolk Looter."
@@ -846,10 +1366,35 @@
         "see_also": []
     },
     {
+        "name": "Main Phase",
+        "type": "Concept",
+        "description": [
+            "The main part of a player's turn. A player's main phase is usually the only time they can play non-instants and make their {land drop}. After the first main phase is the {combat phase}",
+            "",
+            "After combat, there is a second main phase. This is functionally identical to the first, with the usual restrictions still applying."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Mana Ability",
+        "type": "Concept",
+        "description": [
+            "An ability which creates mana, e.g. tapping a land or {mana rock}. These actions don't use the stack or {priority}, and so cannot be responded to."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Mana Curve",
         "type": "Slang",
         "description": [
             "The distribution of mana values of spells in a deck. A deck is said to have a low curve if it has mostly cheap spells, or a high curve if it has more expensive cards.",
+            "",
             "A well-designed curve makes it likely that the first series of turns will have cards to play on curve, maximizing its tempo advantages. This is known as 'curving out'."
         ],
         "source": "MTG Wiki",
@@ -864,7 +1409,7 @@
             "A low-cost creature which produces mana. Notable examples include Llanowar Elves and Birds of Paradise."
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -918,10 +1463,10 @@
         "name": "Mana Sink",
         "type": "Slang",
         "description": [
-            "A card that provides a source to spend excess mana on. Usually activated abilities that can be used on consecutive turns."
+            "A card that provides a source to spend excess mana on. Usually an {activated ability} that can be used on consecutive turns."
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -933,6 +1478,50 @@
         ],
         "source": "MTG Wiki",
         "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Menace",
+        "type": "Keyword",
+        "description": [
+            "This creature can't be blocked except by two or more creatures."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Mill",
+        "type": "",
+        "description": [
+            "Put the top N cards of your {library} into the graveyard."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Modern",
+        "type": "Format",
+        "description": [
+            "A {constructed} format where players build 60-card decks from any regular or Modern Horizons sets released from Eighth Edition onwards. Named after the 'modern' card frame introduced with Eighth Edition."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Multiplayer",
+        "type": "Concept",
+        "description": [
+            "Any format where more than two players play at a time."
+        ],
+        "source": "",
+        "quote": "Wait, every format requires multiple players. Doesn't that make every format multiplayer?",
         "synonyms": [],
         "see_also": []
     },
@@ -954,7 +1543,18 @@
             "A deck copied from the internet or a published tournament listing. The practice of using such decks is referred to as 'netdecking'. Sometimes used in a derogatory manner towards players who copy a deck simply because it is popular or successful, without actually understanding how to play it."
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Ninjutsu",
+        "type": "Keyword",
+        "description": [
+            "Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking"
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1011,10 +1611,38 @@
         "see_also": []
     },
     {
+        "name": "Permanent",
+        "type": "Concept",
+        "description": [
+            "Any card or token on the battlefield."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Phase",
+        "type": "Concept",
+        "description": [
+            "A subsection of a turn. Every turn can be broken down into 5 phases.",
+            "{Beginning Phase}",
+            "{Main Phase}",
+            "{Combat Phase}",
+            "Main Phase 2",
+            "{End Phase}",
+            "Each phase occurs every turn, even if no actions are taken within them. The beginning, combat, and end phases are further divided into steps."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Pillow Fort",
         "type": "Slang",
         "description": [
-            "A deck archetype which discourages opponents from attacking a given player, giving that player an added defensive boost, like a pillow fort. Examples of pillow fort strategies include several deathtouch creatures, and taxing a player's attack step."
+            "A deck archetype which discourages opponents from attacking a given player, giving that player an added defensive boost, like a pillow fort. Examples of pillow fort strategies include several {deathtouch} creatures, or taxing a player's attack step."
         ],
         "source": "MTG Wiki",
         "quote": "This pillow fort deck is really annoying me. Why don't you want to actually play the game?",
@@ -1033,12 +1661,36 @@
         "see_also": []
     },
     {
+        "name": "Pioneer",
+        "type": "Format",
+        "description": [
+            "A {constructed} format where players build 60-card decks from any regular set released from Return to Ravnica onwards."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Pitch",
         "type": "Slang",
         "description": [
             "To discard or {exile} a card from the hand as part of a cost."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Planeswalker",
+        "type": "Concept/Type",
+        "description": [
+            "Concept - Powerful spellcasters able to travel between planes. Planeswalkers are typically the main characters in Magic lore, and players are meant to be planeswalkers in the lore.",
+            "",
+            "Type - A permanent with powerful effects meant to represent the immense power of planeswalkers. Planeswalkers have a loyalty counter instead of power/toughness, and activated abilities which influence said counter. Planeswalkers can be directly targeted by creatures during combat, and any damage they take translates to losing that many loyalty counters."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1058,7 +1710,7 @@
         "name": "Pod",
         "type": "Slang",
         "description": [
-            "The group of people a player is playing with. Usually eight players for Draft, or four for a game of Commander."
+            "The group of people a player is playing with. Usually eight players for {Draft}, or four for a game of {Commander}."
         ],
         "source": "MTG Wiki",
         "quote": "My pod meets every Friday for a few rounds of IRL Commander.",
@@ -1069,10 +1721,10 @@
         "name": "Politics",
         "type": "Slang",
         "description": [
-            "In a {multiplayer} game such as Commander, players negotiating with and otherwise assisting one another to defeat other players. From a game design standpoint, “political” means that some decisions are based on an element of diplomacy, that players can talk to each other to influence how their opponents choose to play."
+            "In a {multiplayer} game such as {Commander}, players negotiating with and otherwise assisting one another to defeat other players. From a game design standpoint, “political” means that some decisions are based on an element of diplomacy, that players can talk to each other to influence how their opponents choose to play."
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1088,10 +1740,21 @@
         "see_also": []
     },
     {
+        "name": "Protection",
+        "type": "Keyword",
+        "description": [
+            "Protection from X - This can't be blocked, targeted, dealt damage, enchanted, or equipped by anything X"
+        ],
+        "source": "Reminder Text",
+        "quote": "Remember that protection keeps you out of DEBT. Damage, Enchant/Equip, Block, Target.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Proxy",
         "type": "Slang",
         "description": [
-            "A item which represents another card in casual play, often a card similarly sized to an actual Magic card. Proxies are typically distinguished from counterfeit cards by deliberately not imitating real cards. Nevertheless, proxies are banned at sanctioned Magic events, and results may vary in your local game store."
+            "A item which represents another card in casual play, often a card similarly sized to an actual Magic card. Proxies are typically distinguished from counterfeit cards by deliberately not imitating real cards. Nevertheless, proxies are banned at sanctioned Magic events, and results may vary in your local game store or {pod}."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1129,6 +1792,17 @@
         "see_also": []
     },
     {
+        "name": "Reach",
+        "type": "Keyword",
+        "description": [
+            "This creature can block creatures with {flying}"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Reanimation",
         "type": "Slang",
         "description": [
@@ -1151,10 +1825,32 @@
         "see_also": []
     },
     {
+        "name": "Reserved List",
+        "type": "Concept",
+        "description": [
+            "A list of cards which Wizards of the Coast has promised to never reprint or make functional equivalents of in any tournament-legal form. The list was created in 1999 to appease collectors who did not want to see their valuable cards plummet in price via reprints."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Resolve",
+        "type": "Concept",
+        "description": [
+            "When a spell on the {stack} is allowed to apply its effects."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Ritual",
         "type": "Slang",
         "description": [
-            "Sorceries or instants which add a certain amount of mana as a one-time effect. Named after Dark Ritual"
+            "Sorceries or instants which add an amount of mana as a one-time effect. Named after Dark Ritual"
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1162,10 +1858,10 @@
         "see_also": []
     },
     {
-        "name": "Rule 0",
+        "name": "Rule Zero",
         "type": "Slang",
         "description": [
-            "The idea that in a casual play group, anything may be allowed so long as the group is comfortable with it. Bans and rules may exist for more professional events, but at the end of the day, Magic is just a game, and games can be played however their players want."
+            "The idea that in a casual play group, anything may be allowed or prohibited so long as the group is comfortable with it. Bans and rules may exist for more professional events, but at the end of the day, Magic is just a game, and games can be played however their players want."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1179,7 +1875,18 @@
             "The action of first discarding a card, then drawing a card, like a reverse {looting}. Named after Rummaging Goblin"
         ],
         "source": "MTG Wiki",
-        "quote": "I've been getting into CEDH lately and wow it's crazy just how insane some of these decks are.",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Sacrifice",
+        "type": "Keyword",
+        "description": [
+            "To put a permanent you control into its owners graveyard. Note this is not destroying the creature, but sending it directly to the graveyard, so it bypasses {indestructible}."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1187,10 +1894,32 @@
         "name": "Scoop",
         "type": "Slang",
         "description": [
-            "Conceding the game, named after the player 'scooping' their cards off of the table to reshuffle."
+            "Conceding the game, named after the player 'scooping' their cards off of the table to gather them all."
         ],
         "source": "MTG Wiki",
         "quote": "Turn one Sol Ring? Nah I'm scooping",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Scry",
+        "type": "Keyword",
+        "description": [
+            "Take the top N cards of the {library}, and place any of them on the top or bottom of the library in any order you wish."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Sealed",
+        "type": "Format",
+        "description": [
+            "A format where each player receives 6 booster packs, and build a 40-card deck from that only that pool of cards. Basic lands are provided, and no other restrictions apply"
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1235,9 +1964,31 @@
         "name": "Shock Land",
         "type": "Slang",
         "description": [
-            "A dual land which enters the battlefield tapped unless its controller pays two life. Named for Shock, a spell that deals two damage, since having the land come in untapped is similar to shocking yourself."
+            "A {dual land} which enters the battlefield tapped unless its controller pays two life. Named for Shock, a spell that deals two damage, since having the land come in untapped is similar to shocking yourself."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Shroud",
+        "type": "Keyword",
+        "description": [
+            "This permanent or player can’t be the target of spells or abilities."
+        ],
+        "source": "Reminder Text",
+        "quote": "Buddy, you put shroud on it. You can't target it with that spell.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Siege",
+        "type": "Type",
+        "description": [
+            "A subtype of {battle}, sieges are given to an opponent to defend, and can be targeted directly in combat. Upon its 'defeat', it is exiled and recast transformed on its owner's battlefield."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1276,7 +2027,7 @@
         "name": "Singleton",
         "type": "Slang",
         "description": [
-            "A single instance of a card in a deck. Also refers to a deck restriction where every card aside from basic lands must be a singleton."
+            "A single instance of a card in a deck. Also refers to a deck restriction wherein every card aside from a few exceptions (such as {basic land} cards) must be a singleton."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1287,7 +2038,7 @@
         "name": "Slow Land",
         "type": "Slang",
         "description": [
-            "A dual land that comes onto the battlefield untapped if the player already controls a certain number of other lands."
+            "A {dual land} that comes onto the battlefield untapped if the player already controls a certain number of other lands."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1295,6 +2046,28 @@
         "see_also": [
             "Fast Land"
         ]
+    },
+    {
+        "name": "Snow",
+        "type": "Keyword",
+        "description": [
+            "A supertype of {basic land} from Ice Age, also applied to some dual lands in later sets. Some cards care about using snow lands, either rewarding the player for having them, or requiring mana from a snow land."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Sorcery",
+        "type": "Type",
+        "description": [
+            "A one-shot spell which can only be cast during a player's {main phase}, with nothing on the stack."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Spellslinger",
@@ -1319,10 +2092,46 @@
         "see_also": []
     },
     {
+        "name": "Split Second",
+        "type": "Keyword",
+        "description": [
+            "As long as this spell is on the {stack}, players can't cast spells or activate abilities that aren't a {mana ability}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Stack",
+        "type": "Concept",
+        "description": [
+            "The stack is where played spells and abilities wait to resolve, and are removed from the stack upon resolution. Players who respond with a legal action have their action placed on top of the stack. If multiple actions go on the stack at the same time, a player may order their actions however they wish, then the actions are stacked in {APNAP} order. Once all players pass {priority}, the stack resolves from the top down, so the most recent spells/abilities resolve first. Players can respond after each resolution."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Standard",
+        "type": "Format",
+        "description": [
+            "A rotating {constructed} format where players build 60-card decks from the most recent sets."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Modern",
+            "Pioneer"
+        ]
+    },
+    {
         "name": "Staple",
         "type": "Slang",
         "description": [
-            "A prominent element in the game, be it common effects seen in every match, or common cards in a format."
+            "A prominent element in the game, be it common effects seen in every match, or common cards within a format."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1333,7 +2142,7 @@
         "name": "Stax",
         "type": "Slang",
         "description": [
-            "A deck archetype centered around symmetrical denial of resources, through sacrifices, taxes, land destruction, and other means of preventing players from playing the game."
+            "A deck archetype centered around symmetrical denial of resources, through the use of {sacrifice}, {tax}, land destruction, and other means of preventing players from playing the game."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1348,6 +2157,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "Stompy: When your vegan friend wants to play Aggro.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Storm",
+        "type": "Keyword",
+        "description": [
+            "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies"
+        ],
+        "source": "Reminder Text",
+        "quote": "This is so broken WOTC made up the Storm Scale to rank how likely a mechanic will return.",
         "synonyms": [],
         "see_also": []
     },
@@ -1368,10 +2188,10 @@
         "name": "Superfriends",
         "type": "Slang",
         "description": [
-            "A {planeswalker} focused deck centered around having multiple on the field at the same time. This makes it more difficult to eliminate all planeswalkers before one can cast its ultimate. Named after the classic DC superhero cartoon."
+            "A {planeswalker} focused deck centered around having multiple on the field at the same time. This makes it more difficult to eliminate all planeswalkers before one can cast its {ultimate}. Named after the classic DC superhero cartoon."
         ],
         "source": "MTG Wiki",
-        "quote": "I'm kinda hype for the inevitable DC Universes Beyond set so I can build a Superfriends Superfriends deck.",
+        "quote": "I made Justice League proxies so I could make a Superfriends Superfriends deck.",
         "synonyms": [],
         "see_also": []
     },
@@ -1389,13 +2209,46 @@
         ]
     },
     {
+        "name": "Tap",
+        "type": "Keyword",
+        "description": [
+            "Rotate an upright card 90 degrees to signify it has been 'used'."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Tap",
+        "type": "Keyword",
+        "description": [
+            "Rotate an upright card 90 degrees to signify it has been 'used'."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Tapped Out",
         "type": "Slang",
         "description": [
-            "A player who has expended all of their mana sources, and has potentially tapped all of their creatures as well. A tapped out player most likely cannot use {interaction}, leaving themselves vulnerable to powerful spells."
+            "A player who has expended all of their mana sources, and has potentially tapped all of their creatures as well. A tapped out player most likely cannot use {removal}, leaving themselves vulnerable to powerful spells."
         ],
         "source": "MTG Wiki",
         "quote": "I think it's worth it to tap out here. You probably can't do anything, right?",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Tax",
+        "type": "Concept",
+        "description": [
+            "Any effect which increases the cost of an action. This can be forcing players to spend extra mana to cast a spell, preventing a spell unless its caster pays a price, or another player getting a beneficial effect unless a price is paid."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1435,8 +2288,7 @@
             "Mise",
             "Rip"
         ],
-        "see_also": [
-        ]
+        "see_also": []
     },
     {
         "name": "Trade",
@@ -1450,10 +2302,21 @@
         "see_also": []
     },
     {
+        "name": "Trample",
+        "type": "Keyword",
+        "description": [
+            "When this creature deals combat damage to another creature, any damage exceeding lethal damage may be assigned to the player, {planeswalker}, or {battle} it is targeting."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Tutor",
         "type": "Slang",
         "description": [
-            "A spell which allows a player to search their library for a specific card, placing it on the field, in the hand, or on top of the library. Named after {Demonic Tutor} and the four tutors from the Mirage block"
+            "A spell which allows a player to search their {library} for a specific card, placing it on the field, in the hand, or on top of the library. Named after Demonic Tutor and the four tutors from the Mirage block"
         ],
         "source": "MTG Wiki",
         "quote": "I'm gonna tutor for Vampiric Tutor, and use that to tutor for my win con.",
@@ -1468,14 +2331,16 @@
         ],
         "source": "MTG Wiki",
         "quote": "",
-        "synonyms": ["Tribal"],
+        "synonyms": [
+            "Tribal"
+        ],
         "see_also": []
     },
     {
         "name": "Ultimate",
         "type": "Slang",
         "description": [
-            "A {planeswalker}'s ability which provides a massive effect at the cost of several loyalty counters. Ultimates are often able to massively swing the game in their controller's favor, provided the player can accrue the counters needed to use it."
+            "A {planeswalker}'s ability which provides a massive effect at the cost of several loyalty counters. Ultimates are often able to massively swing the game in their controller's favor, provided the player can accrue the counters needed to activate it."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1491,7 +2356,10 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": ["Silver Border", "Acorn"]
+        "see_also": [
+            "Silver Border",
+            "Acorn"
+        ]
     },
     {
         "name": "Value",
@@ -1527,13 +2395,46 @@
         "see_also": []
     },
     {
+        "name": "Vigilance",
+        "type": "Keyword",
+        "description": [
+            "Attacking doesn't cause this creature to {tap}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Vintage",
+        "type": "Format",
+        "description": [
+            "A {constructed} format where players construct 60-card decks where every regular card ever printed is legal. Differs from {Legacy} in that some Legacy-banned cards are instead restricted to being {singleton}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Voltron",
         "type": "Slang",
         "description": [
             "A deck archetype centered around casting one particularly strong creature, then improving it with various {aura} and {equipment} cards. Often seen in Commander, where the constant presence of the commander and the commander damage rule make Voltron far more consistent. Named after the titular cartoon/anime/westernized frankenstein of an anime."
         ],
         "source": "MTG Wiki",
-        "quote": "I get why people play Voltron. I think my commander is cool, and I want them to be the one doing the cool things.",
+        "quote": "I just love playing voltron. I think my commander is cool, and I want them to be the one doing the cool things.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Ward",
+        "type": "Keyword",
+        "description": [
+            "Ward N - Whenever this becomes the target of a spell or ability an opponent controls, counter it unless that player pays N."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1547,7 +2448,7 @@
             "Sultai: {B} {G} {U}",
             "Mardu: {R} {W} {B}",
             "Temur: {G} {U} {R}",
-            "The term 'wedge' comes from the triangular shape made when connecting the three colors on the {color pie}."
+            "The name 'wedge' comes from the triangular shape made when connecting the three colors on the {color pie}."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1586,207 +2487,9 @@
         ],
         "source": "MTG Wiki",
         "quote": "",
-        "synonyms": ["Wincon"],
-        "see_also": []
-    },
-    {
-        "name": "Counter",
-        "type": "Keyword/Concept",
-        "description": [
-            "Keyword - Removes an ability from the {stack} without resolution, sending it to the graveyard, or potentially {exile}.",
-            "Concept - A marker placed on a card or player to denote a modification to its characteristics. Examples include +1/+1, charge, and time counters, among many others."
+        "synonyms": [
+            "Wincon"
         ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Exile",
-        "type": "Concept/Keyword",
-        "description": [
-            "Concept - A game {zone} outside of the field of play. Exile mainly functions as a second graveyard, one which is far more difficult to return a card from. However, many abilities can exile a card and return it after some condition, or otherwise use exile as something other than a final resting place.",
-            "Keyword - To send a card to the exile zone."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Fight",
-        "type": "Keyword",
-        "description": [
-            "A keyword which makes two creatures damage each other, as if an attacking creature was being blocked, but performed as an out of combat effect."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Mill",
-        "type": "",
-        "description": [
-            "Put the top X cards of your library into the graveyard."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Sacrifice",
-        "type": "Keyword",
-        "description": [
-            "To put a permanent you control into its owners graveyard. Note this is not destroying the creature, but sending it directly to the graveyard, so it bypasses indestructable."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Scry",
-        "type": "Keyword",
-        "description": [
-            "Take the top X cards of the library, and place any of them on the top or bottom of the library in any order you wish."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Tap",
-        "type": "Keyword",
-        "description": [
-            "Rotate an upright card 90 degrees to signify it has been 'used'."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Deathtouch",
-        "type": "Keyword",
-        "description": [
-            "Any amount of damage this deals to a creature is enough to destroy it."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Defender",
-        "type": "Keyword",
-        "description": [
-            "This creature cannot attack."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Double Strike",
-        "type": "Keyword",
-        "description": [
-            "This creature deals both {first strike} and normal combat damage."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "First Strike",
-        "type": "Keyword",
-        "description": [
-            "This creature deals damage in a damage step before the regular damage step."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Flash",
-        "type": "Keyword",
-        "description": [
-            "You may cast this spell any time you could cast an {instant}."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Flying",
-        "type": "Keyword",
-        "description": [
-            "This creature can't be blocked except by creatures with flying or {reach}"
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Haste",
-        "type": "Keyword",
-        "description": [
-            "This creature can attack and tap as soon as it comes under your control."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Hexproof",
-        "type": "Keyword",
-        "description": [
-            "This permanent can't be the target of spells or abilities your opponents control"
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Indestructible",
-        "type": "Keyword",
-        "description": [
-            "Damage and effects that say 'destroy' don’t destroy this."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Lifelink",
-        "type": "Keyword",
-        "description": [
-            "Damage dealt by this creature also causes you to gain that much life"
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Menace",
-        "type": "Keyword",
-        "description": [
-            "This creature can't be blocked except by two or more creatures."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
         "see_also": []
     },
     {
