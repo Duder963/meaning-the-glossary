@@ -9,6 +9,8 @@ fs.copyFile('./terms.json', './terms.json_', (err) => {
     }
 })
 
+console.log(data.length)
+
 data.sort((a,b) => a.name.localeCompare(b.name))
 
 let terms = new Set()

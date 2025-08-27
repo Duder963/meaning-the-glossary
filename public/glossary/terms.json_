@@ -16,12 +16,25 @@
         "name": "Activated Ability",
         "type": "Keyword",
         "description": [
-            "An ability that can be activated by paying its cost. Follows the format 'COST: Ability'. Activated abilities can be activated at {instant} speed."
+            "An ability that can be activated by paying its cost. Follows the format 'COST: Ability'. Activated abilities can usually be activated at {instant speed}."
         ],
         "source": "",
-        "quote": "If you're ever in doubt, the colon will help you out",
+        "quote": "If ever you are in doubt, the colon will help you out",
         "synonyms": [],
         "see_also": []
+    },
+    {
+        "name": "Adventure",
+        "type": "Type",
+        "description": [
+            "A secondary instant or sorcery attached to a {permanent}. Either the main spell or adventure can be cast from a player's hand. If the adventure is cast, the card is exiled, and the main spell can be cast from {exile} for its regular cost."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Split Card"
+        ]
     },
     {
         "name": "Aggro",
@@ -84,7 +97,7 @@
         "name": "APNAP",
         "type": "Concept",
         "description": [
-            "Active Player, Non-Active Player. Whenever multiple players resolve an effect at the same time, first the active player does so, then the other players in turn order."
+            "Active Player, Non-Active Player. Whenever multiple players have to make decisions at the same time, first the active player makes their decision, then the other players do so in turn order, then the effects all occur simultaneously."
         ],
         "source": "",
         "quote": "",
@@ -146,6 +159,19 @@
         "see_also": []
     },
     {
+        "name": "Bargain",
+        "type": "Keyword",
+        "description": [
+            "You may sacrifice an artifact, enchantment, or token as you cast this spell."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Kicker"
+        ]
+    },
+    {
         "name": "Basic Land",
         "type": "Type",
         "description": [
@@ -169,7 +195,7 @@
         "name": "Battle",
         "type": "Type",
         "description": [
-            "A card type introduced in March of the Machine, battles are attackable permanants with abilities which has a non-replenishing defense, similar to a {planeswalker}. Currently, the only legal subtype of battle is a {Siege}"
+            "A card type introduced in March of the Machine, battles are attackable permanents with abilities which has a non-replenishing defense, similar to a {planeswalker}. Currently, the only legal subtype of battle is a {Siege}"
         ],
         "source": "Description Source",
         "quote": "This is a quote using the word - Quote Sayer",
@@ -181,10 +207,29 @@
         "type": "Concept",
         "description": [
             "The beginning {phase} of each turn. Broken down into three steps:",
+            "",
             "Untap: The active player untaps any tapped permanents. In addition, phasing creatures phase in/out, and the day and night cycle occurs, all before the untapping of permanents.",
+            "",
             "Upkeep: Any abilities which trigger on untap or upkeep go onto the {stack}.",
+            "",
             "Draw: The active player draws a card. Then any abilities which trigger on the draw step go on the stack.",
+            "",
             "After this phase is the first {main phase}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [
+            "Untap",
+            "Upkeep",
+            "Draw"
+        ],
+        "see_also": []
+    },
+    {
+        "name": "Behold",
+        "type": "Keyword",
+        "description": [
+            "Behold OBJECT - To behold an OBJECT, choose an OBJECT you control or reveal an OBJECT card from your hand"
         ],
         "source": "",
         "quote": "",
@@ -236,7 +281,7 @@
         "name": "Bounce",
         "type": "Slang",
         "description": [
-            "A spell or effect that returns a permanant to its owner's hand"
+            "A spell or effect that returns a permanent to its owner's hand"
         ],
         "source": "MTG Wiki",
         "quote": "I'll cast Desculpting Blast and bounce your 4/4 flyer",
@@ -361,6 +406,17 @@
         "see_also": []
     },
     {
+        "name": "Celebration",
+        "type": "Keyword",
+        "description": [
+            "If two or more nonland permanents entered the battlefield under your turn, ..."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Chaff",
         "type": "Slang",
         "description": [
@@ -394,6 +450,17 @@
         "see_also": []
     },
     {
+        "name": "Cloak",
+        "type": "Keyword",
+        "description": [
+            "Put a card onto the battlefield face down as a 2/2 creature with ward {2}. Turn it face up any time for its mana cost if it's a creature card"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Clock",
         "type": "Slang",
         "description": [
@@ -401,6 +468,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "You're at 10 health and can't block my 4/2 flyer. You're on a 3 turn clock.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Collect Evidence",
+        "type": "Keyword",
+        "description": [
+            "Collect evidence N - Exile cards with total mana value N or greater from your graveyard."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -420,10 +498,15 @@
         "type": "Concept",
         "description": [
             "The phase where creatures can attack and block. Broken down into five steps:",
+            "",
             "Beginning of Combat: The last chance for a player to tap a creaeture or otherwise prevent an opponent's creature from being an attacker.",
+            "",
             "Declare Attackers: The active player may declare which legal attackers will attack, and what they will target.",
+            "",
             "Declare Blockers: Any players being attacked may block. A creature can only block one other creature, but multiple creatures can block the same creature. If a creature without {trample} is blocked, its damage will not reach the defender, even if the blocker is disposed of.",
+            "",
             "Combat Damage: If multiple creatures block a creature, the attacking player may assign how the damage is delivered. Then any {first strike} damage is evaluated, then regular damage. All damage evaluated occurs at the same time.",
+            "",
             "End of Combat: Any effects which trigger at the end of combat go on the {stack}. Then a round of priority occurs."
         ],
         "source": "",
@@ -561,6 +644,30 @@
         "see_also": []
     },
     {
+        "name": "Craft",
+        "type": "Keyword",
+        "description": [
+            "Craft with TYPE - COST, exile this, exile TYPE you control or a TYPE from your graveyard: Return this card transformed under its owner’s control. Craft only as a sorcery."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Crew",
+        "type": "Keyword",
+        "description": [
+            "Crew N - Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes an artifact creature until end of turn."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Vehicle"
+        ]
+    },
+    {
         "name": "Cube",
         "type": "Format",
         "description": [
@@ -616,6 +723,30 @@
         "see_also": []
     },
     {
+        "name": "Delirium",
+        "type": "Keyword",
+        "description": [
+            "If there are four or more card types among cards in your graveyard, ..."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Descend",
+        "type": "Keyword",
+        "description": [
+            "Action - To put a permanent into your graveyard",
+            "",
+            "Descend N - If there are N or more permanents in your graveyard, ..."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Dies to Removal",
         "type": "Slang",
         "description": [
@@ -644,6 +775,28 @@
             "Gruul",
             "Selesnya"
         ]
+    },
+    {
+        "name": "Discover",
+        "type": "Keyword",
+        "description": [
+            "Discover N - {Exile} cards from the top of your {library} until you exile a nonland card with mana value N or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom of your library in a random order."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Disguise",
+        "type": "Keyword",
+        "description": [
+            "Disguise COST - You may cast this face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Dork",
@@ -740,6 +893,17 @@
         "see_also": []
     },
     {
+        "name": "Eerie",
+        "type": "Keyword",
+        "description": [
+            "Whenever an {enchantment} you control enters and whenever you fully unlock a {Room}, ..."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Egg",
         "type": "Slang",
         "description": [
@@ -766,10 +930,23 @@
         "type": "Keyword",
         "description": [
             "The final phase of a turn. Broken down into two steps:",
+            "",
             "End Step: Any effects which trigger at the end of turn go on the stack. Then a round of {priority} occurs",
-            "Cleanup: If necessary, the active player discards down to seven cards in hand. Then, any damage marked on a permanant is removed, and effects which last until end of turn end, both occuring at the same time."
+            "",
+            "Cleanup: If necessary, the active player discards down to seven cards in hand. Then, any damage marked on a permanent is removed, and effects which last until end of turn end, both occuring at the same time."
         ],
         "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Endure",
+        "type": "Keyword",
+        "description": [
+            "Endure N - Put N +1/+1 counters on this or create a N/N white Spirit creature token"
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -808,7 +985,7 @@
         "name": "Equip",
         "type": "Keyword",
         "description": [
-            "Equip X: Attach this permanent to target creature you control. Activate this ability only any time you could cast a sorcery."
+            "Equip X: Attach this permanent to target creature you control. Activate this ability only any time you could cast a {sorcery}."
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -883,6 +1060,28 @@
             "Keyword - To send a card to the exile zone."
         ],
         "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Expend",
+        "type": "Keyword",
+        "description": [
+            "Expend N - You expend N as you spend your Nth total mana to cast spells during a turn."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Explore",
+        "type": "Keyword",
+        "description": [
+            "Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard."
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -970,7 +1169,7 @@
         "name": "Flicker",
         "type": "Slang",
         "description": [
-            "A spell or effect which exiles a permanant then immediately returns it to the battlefield. This allows ETB effects to be reused, be it on the flickered creature or some other creature"
+            "A spell or effect which exiles a permanent then immediately returns it to the battlefield. This allows ETB effects to be reused, be it on the flickered creature or some other creature"
         ],
         "source": "MTG Wiki",
         "quote": "I'm gonna flicker my commander so your removal fizzles and I can get another drain off of Blood Artist",
@@ -985,6 +1184,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "I'm gonna tap my Sol Ring and a Mountain, leaving one of the colorless floating, to Abrade your Sol Ring",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Flurry",
+        "type": "Keyword",
+        "description": [
+            "Whenever you cast your second spell each turn..."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1011,12 +1221,34 @@
         "see_also": []
     },
     {
+        "name": "Forage",
+        "type": "Keyword",
+        "description": [
+            "To forage, exile three cards from your graveyard or sacrifice a Food."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Game Changers",
         "type": "Concept",
         "description": [
             "Cards the {Commander} Format Panel has deemed so powerful or game-warping they must be restricted or banned below a certain {commander bracket}. While not quite ban worthy, game changers are definitely the most likely cards to get banned in the future."
         ],
         "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Gift",
+        "type": "Keyword",
+        "description": [
+            "You may promise an opponent a gift as you cast this spell. If you do, they get whatever you're gifting them."
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1115,6 +1347,17 @@
         ]
     },
     {
+        "name": "Harmonize",
+        "type": "Keyword",
+        "description": [
+            "Harmonize COST: You may cast this card from your graveyard by paying its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Haste",
         "type": "Keyword",
         "description": [
@@ -1133,6 +1376,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "At this point I'm throwing in Bojuka Bog just for the graveyard hate against her deck.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Hellbent",
+        "type": "Keyword",
+        "description": [
+            "Having no cards in hand. Can be used as a general term, even if nothing on the board cares about being hellbent."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1172,6 +1426,17 @@
         "see_also": []
     },
     {
+        "name": "Impending",
+        "type": "Keyword",
+        "description": [
+            "Impending N — COST: If you cast this {spell} for its impending cost, it enters with N time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Impulse Draw",
         "type": "Slang",
         "description": [
@@ -1203,8 +1468,31 @@
         "quote": "",
         "synonyms": [],
         "see_also": [
-            "Sorcery"
+            "Sorcery",
+            "Instant Speed"
         ]
+    },
+    {
+        "name": "Instant Speed",
+        "type": "Slang",
+        "description": [
+            "A non-{instant} that can be played whenever an instant could be played. E.g. {flash} or an {activated ability}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Investigate",
+        "type": "Keyword",
+        "description": [
+            "Create a Clue token. It's an artifact with '{2}, Sacrifice this artifact: Draw a card'"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Izzet",
@@ -1243,6 +1531,17 @@
             "The {wedge} combination of {U} {R} {W}, named after the respective clan of Tarkir"
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Job Select",
+        "type": "Keyword",
+        "description": [
+            "When this {Equipment} enters, create a 1/1 colorless Hero creature token, then attach this Equipment to it."
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1303,7 +1602,7 @@
         "name": "Landfall",
         "type": "Ability",
         "description": [
-            "A triggered ability that occurs whenever a land enters the battlefield"
+            "A {triggered ability} that occurs whenever a land enters the battlefield"
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -1382,7 +1681,7 @@
         "name": "Mana Ability",
         "type": "Concept",
         "description": [
-            "An ability which creates mana, e.g. tapping a land or {mana rock}. These actions don't use the stack or {priority}, and so cannot be responded to."
+            "An {activated ability} which creates mana, e.g. tapping a land or {mana rock}. These actions don't use the {stack} or {priority}, and so cannot be responded to."
         ],
         "source": "",
         "quote": "",
@@ -1482,6 +1781,17 @@
         "see_also": []
     },
     {
+        "name": "MDFC",
+        "type": "Keyword",
+        "description": [
+            "Modal Double-Faced Card. A card with two card faces, with a player able to play either side. Typically one side is a {permanent}, while the other is an {instant} or {sorcery}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Menace",
         "type": "Keyword",
         "description": [
@@ -1499,6 +1809,17 @@
             "Put the top N cards of your {library} into the graveyard."
         ],
         "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Mobilize",
+        "type": "Keyword",
+        "description": [
+            "Mobilize N - Whenever this creature attacks, create N tapped and attacking 1/1 red Warrior creature tokens. {Sacrifice} them at the beginning of the next end step"
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1554,6 +1875,17 @@
             "Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking"
         ],
         "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Offspring",
+        "type": "Keyword",
+        "description": [
+            "Offspring COST: You may pay an additional COST as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it."
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1707,6 +2039,17 @@
         "see_also": []
     },
     {
+        "name": "Plot",
+        "type": "Keyword",
+        "description": [
+            "Plot COST - You may pay COST and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Pod",
         "type": "Slang",
         "description": [
@@ -1825,6 +2168,17 @@
         "see_also": []
     },
     {
+        "name": "Renew",
+        "type": "Keyword",
+        "description": [
+            "Exile this card from your graveyard: X happens. Activate only as a sorcery."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Reserved List",
         "type": "Concept",
         "description": [
@@ -1847,12 +2201,34 @@
         "see_also": []
     },
     {
+        "name": "Response",
+        "type": "Slang",
+        "description": [
+            "A card or ability a player chooses to activate upon another player's own card or ability. Typically an {instant speed} response, which then goes on the {stack}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Ritual",
         "type": "Slang",
         "description": [
             "Sorceries or instants which add an amount of mana as a one-time effect. Named after Dark Ritual"
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Room",
+        "type": "Type",
+        "description": [
+            "A type of {enchantment} similar to a {split card}, Rooms have two sides, of which a player can choose one to cast. While it's on the battlefield, at {sorcery speed}, they can pay the cost of the other side to 'unlock' it and its effects."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1884,6 +2260,64 @@
         "type": "Keyword",
         "description": [
             "To put a permanent you control into its owners graveyard. Note this is not destroying the creature, but sending it directly to the graveyard, so it bypasses {indestructible}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Saddle",
+        "type": "Keyword",
+        "description": [
+            "Saddle N - Tap any number of other creatures you control with total power N or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Crew",
+            "Station"
+        ]
+    },
+    {
+        "name": "Artifact",
+        "type": "Type",
+        "description": [
+            "A permanent which represents objects and devices, magical or constructed."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Fuse",
+        "type": "Keyword",
+        "description": [
+            "You may cast one or both halves of this card from your hand."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": ["Split Card"]
+    },
+    {
+        "name": "Aftermath",
+        "type": "Keyword",
+        "description": [
+            "Allows the second half of a split card to be cast only from the graveyard, then {exile} it."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Saga",
+        "type": "Type",
+        "description": [
+            "A temporary enchantment with multiple effects, called chapters. When the saga enters and after its controller's draw step, a lore counter is added. Then, the chapter corresponding to the number of lore counters triggers. Finally if that was the last chapter, {sacrifice} the Saga."
         ],
         "source": "",
         "quote": "",
@@ -2070,6 +2504,41 @@
         "see_also": []
     },
     {
+        "name": "Sorcery Speed",
+        "type": "Keyword",
+        "description": [
+            "A non-{sorcery} that can only be played whenever a sorcery can be played. Usually used as a restriction on an {activated ability}"
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Spacecraft",
+        "type": "Type",
+        "description": [
+            "An {artifact} which can {station} other creatures to add charge counters. Spacecraft unlock abilities or become a creature at certain thresholds of charge counters."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Spell",
+        "type": "Concept",
+        "description": [
+            "Officially, any card on the {stack} which has yet to resolve, which would be any played non-land card.",
+            "",
+            "Casually used to refer to an {instant} or {sorcery}, as their effects are only relevant on the stack."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Spellslinger",
         "type": "Slang",
         "description": [
@@ -2092,6 +2561,17 @@
         "see_also": []
     },
     {
+        "name": "Split Card",
+        "type": "Type",
+        "description": [
+            "A single card 'split' into two separate cards. A player may cast either side, unless the card has {fuse} or {aftermath}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Split Second",
         "type": "Keyword",
         "description": [
@@ -2103,10 +2583,23 @@
         "see_also": []
     },
     {
+        "name": "Spree",
+        "type": "Keyword",
+        "description": [
+            "An {instant} or {sorcery} with multiple possible effects, where a player must pay for one or more of the costs."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Stack",
         "type": "Concept",
         "description": [
-            "The stack is where played spells and abilities wait to resolve, and are removed from the stack upon resolution. Players who respond with a legal action have their action placed on top of the stack. If multiple actions go on the stack at the same time, a player may order their actions however they wish, then the actions are stacked in {APNAP} order. Once all players pass {priority}, the stack resolves from the top down, so the most recent spells/abilities resolve first. Players can respond after each resolution."
+            "Where spells and abilities wait to resolve after being cast or triggered, and are removed from upon resolution. Any actions activated or triggered before a spell resolves are placed atop the stack. If multiple actions go on the stack at the same time, players may order their own actions however they wish, then the actions are placed on the stack in turn order.",
+            "",
+            "Once all players pass {priority}, the stack resolves from the top down, the most recent actions resolving first. Players can make a {response} after each resolution."
         ],
         "source": "",
         "quote": "",
@@ -2134,6 +2627,17 @@
             "A prominent element in the game, be it common effects seen in every match, or common cards within a format."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Station",
+        "type": "Keyword",
+        "description": [
+            "Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery."
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -2192,6 +2696,28 @@
         ],
         "source": "MTG Wiki",
         "quote": "I made Justice League proxies so I could make a Superfriends Superfriends deck.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Survival",
+        "type": "Keyword",
+        "description": [
+            "At the beginning of your second main phase, if this is tapped, ..."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Suspect",
+        "type": "Keyword",
+        "description": [
+            "A suspected creature has {menace} and can't block."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -2277,6 +2803,17 @@
         "see_also": []
     },
     {
+        "name": "Token",
+        "type": "Concept",
+        "description": [
+            "A permanent that is not represented by a card. Tokens are created by other spells and abilities, rather than directly cast."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Topdeck",
         "type": "Slang",
         "description": [
@@ -2306,6 +2843,17 @@
         "type": "Keyword",
         "description": [
             "When this creature deals combat damage to another creature, any damage exceeding lethal damage may be assigned to the player, {planeswalker}, or {battle} it is targeting."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Triggered Ability",
+        "type": "Concept",
+        "description": [
+            "An ability that automatically activates when a specific event occurs. When it triggers, the effect goes onto the {stack} unless it is a {mana ability}"
         ],
         "source": "",
         "quote": "",
@@ -2362,6 +2910,17 @@
         ]
     },
     {
+        "name": "Valiant",
+        "type": "Keyword",
+        "description": [
+            "Whenever this becomes the target of a spell or ability you control for the first time each turn, ..."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Value",
         "type": "Slang",
         "description": [
@@ -2395,6 +2954,17 @@
         "see_also": []
     },
     {
+        "name": "Vehicle",
+        "type": "Keyword",
+        "description": [
+            "An {artifact} which can become an artifact creature once it gets enough {crew}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Vigilance",
         "type": "Keyword",
         "description": [
@@ -2417,6 +2987,17 @@
         "see_also": []
     },
     {
+        "name": "Void",
+        "type": "Keyword",
+        "description": [
+            "X happens if a nonland permanent left the battlefield this turn or a spell was {warp}ed this turn"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Voltron",
         "type": "Slang",
         "description": [
@@ -2432,6 +3013,17 @@
         "type": "Keyword",
         "description": [
             "Ward N - Whenever this becomes the target of a spell or ability an opponent controls, counter it unless that player pays N."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Warp",
+        "type": "Keyword",
+        "description": [
+            "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn."
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -2506,6 +3098,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "Why is Blue U? Because Black is the selfish color, so it steals the B. Why is it not L? Cause Blue has never taken an L in its life.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "X",
+        "type": "Concept",
+        "description": [
+            "A variable which needs to be determined. X can appear as a mana cost or variable within the rules text of a card."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     }
