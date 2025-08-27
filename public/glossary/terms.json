@@ -892,15 +892,12 @@
         "name": "Dual Land",
         "type": "Concept",
         "description": [
-            "A non-{basic land} land which can produce two colors of mana. Especially refers to the original ten dual lands which featured no restrictions on their use, making them incredibly powerful and rare, especially since all ten are on the {reserved list}",
-            "",
-            "Several different kinds of dual lands exist, each with their own advantages and disadvantages. For a comprehensive list of each category of dual lands, check back later. Maybe Duder'll get around to it."
+            "A non-{basic land} land which can produce two colors of mana. Especially refers to the original ten dual lands which featured no restrictions on their use, making them incredibly powerful and rare, especially since all ten are on the {reserved list}."
         ],
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
         "see_also": [
-            "If you see this, yell at Duder to make the dual lands entries"
         ]
     },
     {
@@ -2400,7 +2397,7 @@
         "name": "Shock Land",
         "type": "Slang",
         "description": [
-            "A {dual land} which enters the battlefield tapped unless its controller pays two life. Named for Shock, a spell that deals two damage, since having the land come in untapped is similar to shocking yourself."
+            "A {dual land} which enters the battlefield tapped unless its controller pays two life. Named for Shock, a {spell} which deals two damage, since having the land come in untapped is similar to shocking yourself."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -2735,17 +2732,6 @@
         "see_also": [
             "Wide"
         ]
-    },
-    {
-        "name": "Tap",
-        "type": "Keyword",
-        "description": [
-            "Rotate an upright card 90 degrees to signify it has been 'used'."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
     },
     {
         "name": "Tap",

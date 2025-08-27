@@ -1,3 +1,8 @@
+/*
+ * Term Card
+ * Displays the data of a term from the glossary
+ * Also handles processing the data into a more usable format
+ */
 import reactStringReplace from 'react-string-replace'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -5,18 +10,9 @@ import './termcard.css'
 import './mana.min.css'
 import linkImage from '@/public/link.svg'
 
-export enum TermType {
-    Ability = "Ability",
-    Concept = "Concept",
-    Format = "Format",
-    Keyword = "Keyword",
-    Slang = "Slang",
-    Type = "Type",
-}
-
 export interface GlossaryTerm {
     name: string,
-    type: TermType
+    type: string,
     description: string[],
     source: string,
     quote: string,
@@ -28,6 +24,7 @@ export interface GlossaryTerm {
 //Delay: Delays slide in animation
 //addToList: function to add term to list. Passed from parent list
 export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, delay: number, addToList: (s: string) => void}) {
+
     function ParseDescription(description: string[]) {
         //In which duder reinvents parts of markdown
         let out: any = description.join("\n")
@@ -60,6 +57,7 @@ export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, 
                             .map(w => w[0].toUpperCase()+w.slice(1))
                             .join("")
         return <span key={term}>
+            {/* Add comma before each entry after the first */}
             {!!i && ", "}
             <Link href={`/?term=${link}`} onClick={(event) => {event.preventDefault(); addToList(link)}} className='underline'>{term}</Link>
         </span>

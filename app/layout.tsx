@@ -41,6 +41,7 @@ export default function RootLayout({
                     <div className="flex mx-auto gap-4 [&_p]:font-bold [&_p]:text-xl">
                         <Link href={"/about"}><p>About</p></Link>
                         <Link href={"/credits"}><p>Credits</p></Link>
+                        <Link href={"/contact"}><p>Contact</p></Link>
                     </div>
                 </div>
                 {children}

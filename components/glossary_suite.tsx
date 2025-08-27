@@ -1,7 +1,11 @@
+/*
+ * Glossary Suite
+ * Handles searching though and displaying the glossary
+ */
 'use client'
+
 import { useState } from "react"
 import { useSearchParams } from "next/navigation"
-import { Suspense } from 'react'
 import Fuse from "fuse.js"
 import TermCard from "@/components/termcard"
 import {GlossaryTerm} from "@/components/termcard"
@@ -11,19 +15,27 @@ import data from "@/public/glossary/terms.json"
 export default function GlossarySuite() {
     const glossary: GlossaryTerm[] = data as GlossaryTerm[]
     const linked_term = useSearchParams().get('term')
+    const date = new Date()
+    const date_num = Number(String(date.getFullYear())
+                            + String(date.getMonth())
+                            + String(date.getDate()))
     const [listTerms, setListTerms] = useState(
         linked_term
             ? glossary.filter((t) => t.name.replace(/\s/g, "") === linked_term)
-            // : [glossary[Math.floor(Math.random() * glossary.length)]]
-            : glossary
+            //hash formula stolen from https://javascript.info/task/pseudo-random-generator
+            : [glossary[(date_num * 16807 % 2147483647) % glossary.length]]
+    )
+    const [listInfo, setListInfo] = useState(linked_term ? "" 
+        : `Word of the Day: ${date.toDateString()}`
     )
 
-    // idk what type it wants so it gets the any type
+    // idk what type this ends up as, so it gets the any type
     function HandleSearchKeyDown(event: any) {
+        //If input not enter, return
         if ((event.which || event.keyCode) != 13) return
 
         const search: string = event.target.value
-        if (!search) {setListTerms(glossary) ; return}
+        if (!search) return
 
         const results = new Fuse(glossary, {
             keys: ["name", "description", "synonyms"],
@@ -31,13 +43,23 @@ export default function GlossarySuite() {
         }).search(search)
 
         setListTerms(results.map((r) => r.item))
+        setListInfo(results.length
+            ? `Found ${results.length} Results`
+            : `No results could be found`
+        )
+    }
+
+    function ShowAllTerms() {
+        setListTerms(glossary)
+        setListInfo(`Showing all ${glossary.length} terms`)
     }
 
     function AddToList(link:string) {
         const term = glossary.filter((t) => t.name.replace(/\s/g, "") === link)
 
         //If term exists and not in listTerms, add to list
-        if (term.length && !listTerms.filter((t) => t.name.replace(/\s/g, "") === link).length) setListTerms(listTerms.concat(term))
+        if (term.length && !listTerms.filter((t) => t.name.replace(/\s/g, "") === link).length)
+            setListTerms(listTerms.concat(term))
     }
 
     let delay = 0.0 //Lets cards slide in one by one. Kinda screws up if reloading a massive list in place
@@ -51,8 +73,12 @@ export default function GlossarySuite() {
                 onKeyDown={HandleSearchKeyDown}
             />
             <div className="m-auto flex flex-col gap-4">
-                {cards.length > 0 ? cards : <p className="text-center text-2xl">No results could be found</p>}
+                <h3 className="text-center text-3xl font-bold">{listInfo}</h3>
+                {cards}
             </div>
+            {listTerms != glossary && <button
+                className="text-2xl rounded-full bg-blue-900 w-1/2 mx-auto"
+                onClick={ShowAllTerms}>Show All Terms</button>}
         </div>
     )
 }
