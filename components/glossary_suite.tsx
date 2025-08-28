@@ -19,14 +19,18 @@ export default function GlossarySuite() {
     const date_num = Number(String(date.getFullYear())
                             + String(date.getMonth())
                             + String(date.getDate()))
+
+    // The terms actively in the list
     const [listTerms, setListTerms] = useState(
         linked_term
             ? glossary.filter((t) => t.name.replace(/\s/g, "") === linked_term)
             //hash formula stolen from https://javascript.info/task/pseudo-random-generator
             : [glossary[(date_num * 16807 % 2147483647) % glossary.length]]
     )
+
+    // Status message above the term list
     const [listInfo, setListInfo] = useState(linked_term ? "" 
-        : `Word of the Day: ${date.toDateString()}`
+        : `Term of the Day: ${date.toDateString()}`
     )
 
     // idk what type this ends up as, so it gets the any type
