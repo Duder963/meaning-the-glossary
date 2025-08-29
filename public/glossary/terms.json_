@@ -10,7 +10,7 @@
         "synonyms": [
             "White/Black/Green"
         ],
-        "see_also": []
+        "see_also": ["Jeskai", "Mardu", "Sultai", "Temur"]
     },
     {
         "name": "Activated Ability",
@@ -27,7 +27,7 @@
         "name": "Adventure",
         "type": "Type",
         "description": [
-            "A secondary instant or sorcery attached to a {permanent}. Either the main spell or adventure can be cast from a player's hand. If the adventure is cast, the card is exiled, and the main spell can be cast from {exile} for its regular cost."
+            "A secondary {instant} or {sorcery} attached to a {permanent}. Either the main spell or adventure can be cast from a player's hand. If the adventure is cast, the card is exiled, and the main spell can be cast from {exile} for its regular cost."
         ],
         "source": "",
         "quote": "",
@@ -130,7 +130,7 @@
         "name": "Artifact",
         "type": "Type",
         "description": [
-            "A permanent which represents objects and devices, magical or constructed."
+            "A {permanent} which represents objects and devices, magical or constructed."
         ],
         "source": "",
         "quote": "",
@@ -178,7 +178,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": []
+        "see_also": ["Esper", "Grixis", "Jund", "Naya"]
     },
     {
         "name": "Bargain",
@@ -217,7 +217,7 @@
         "name": "Battle",
         "type": "Type",
         "description": [
-            "A card type introduced in March of the Machine, battles are attackable permanents with abilities which has a non-replenishing defense, similar to a {planeswalker}. Currently, the only legal subtype of battle is a {Siege}"
+            "A card type introduced in March of the Machine, battles are an attackable {permanent} with abilities which has a non-replenishing defense, similar to a {planeswalker}. Currently, the only legal subtype of battle is a {Siege}"
         ],
         "source": "Description Source",
         "quote": "This is a quote using the word - Quote Sayer",
@@ -292,7 +292,6 @@
             "White/Red"
         ],
         "see_also": [
-            "Enemy Colors",
             "Golgari",
             "Izzet",
             "Orzhov",
@@ -303,7 +302,7 @@
         "name": "Bounce",
         "type": "Slang",
         "description": [
-            "A spell or effect that returns a permanent to its owner's hand"
+            "A spell or effect that returns a {permanent} to its owner's hand"
         ],
         "source": "MTG Wiki",
         "quote": "I'll cast Desculpting Blast and bounce your 4/4 flyer",
@@ -680,7 +679,7 @@
         "name": "Crew",
         "type": "Keyword",
         "description": [
-            "Crew N - Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes an artifact creature until end of turn."
+            "Crew N - Tap any number of other untapped creatures you control with total power N or greater: This {permanent} becomes an artifact creature until end of turn."
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -697,6 +696,19 @@
         ],
         "source": "MTG Wiki",
         "quote": "One of these days I'm gonna make my Sliver cube, just you wait.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Cycling",
+        "type": "Keyword",
+        "description": [
+            "Cycling COST - COST, Discard this card: Draw a card",
+            "",
+            "TYPE Cycling COST - COST, Discard this card: Search your library for a TYPE card, reveal it, put it into your hand, then shuffle"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -759,7 +771,7 @@
         "name": "Descend",
         "type": "Keyword",
         "description": [
-            "Action - To put a permanent into your graveyard",
+            "Action - To put a {permanent} into your graveyard",
             "",
             "Descend N - If there are N or more permanents in your graveyard, ..."
         ],
@@ -881,7 +893,7 @@
         "name": "Drop",
         "type": "Slang",
         "description": [
-            "A permanent which can be played without major strategic consideration. Usually used in the context of '2-drop', '3-drop', etc., referring to the turn when a permanent can first be played, which is usually equal to its mana value."
+            "A {permanent} which can be played without major strategic consideration. Usually used in the context of '2-drop', '3-drop', etc., referring to the turn when a permanent can first be played, which is usually equal to its mana value."
         ],
         "source": "MTG Wiki",
         "quote": "It's crucial to my plan that I play my commander as a 3-drop",
@@ -897,8 +909,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-        ]
+        "see_also": []
     },
     {
         "name": "Dud",
@@ -926,9 +937,22 @@
         "name": "Egg",
         "type": "Slang",
         "description": [
-            "A cheap artifact that can be cracked for a small effect. Derived from the Odyssey 'egg' cycle"
+            "A cheap artifact a player can {crack} for a small effect. Derived from the Odyssey 'egg' cycle"
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Crack",
+        "type": "Keyword",
+        "description": [
+            "- To open a booster pack.",
+            "",
+            "- To sacrifice something for an effect, usually via a self-sacrifice ability"
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -937,7 +961,7 @@
         "name": "Enchantment",
         "type": "Type",
         "description": [
-            "A card type representing a persistent magical effect. Usually applies to multiple permanents, if not the entire board, but an {aura} applies to only one permanent."
+            "A card type representing a persistent magical effect. Usually applies to multiple permanents, if not the entire board, but an {aura} applies to only one {permanent}."
         ],
         "source": "",
         "quote": "",
@@ -952,7 +976,7 @@
             "",
             "End Step: Any effects which trigger at the end of turn go on the stack. Then a round of {priority} occurs",
             "",
-            "Cleanup: If necessary, the active player discards down to seven cards in hand. Then, any damage marked on a permanent is removed, and effects which last until end of turn end, both occuring at the same time."
+            "Cleanup: If necessary, the active player discards down to seven cards in hand. Then, any damage marked on a {permanent} is removed, and effects which last until end of turn end, both occuring at the same time."
         ],
         "source": "",
         "quote": "",
@@ -1004,7 +1028,7 @@
         "name": "Equip",
         "type": "Keyword",
         "description": [
-            "Equip X: Attach this permanent to target creature you control. Activate this ability only any time you could cast a {sorcery}."
+            "Equip X: Attach this {permanent} to target creature you control. Activate this ability only any time you could cast a {sorcery}."
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -1042,7 +1066,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": []
+        "see_also": ["Bant", "Grixis", "Jund", "Naya"]
     },
     {
         "name": "ETB",
@@ -1066,6 +1090,17 @@
             "In the context of {draft}, i.e. {BREAD}, applies to any creature featuring some evasion ability."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Exhaust",
+        "type": "Keyword",
+        "description": [
+            "An {activated ability} which can only be used once a game. This restriction is only for each instance of a card."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1188,7 +1223,7 @@
         "name": "Flicker",
         "type": "Slang",
         "description": [
-            "A spell or effect which exiles a permanent then immediately returns it to the battlefield. This allows ETB effects to be reused, be it on the flickered creature or some other creature"
+            "A spell or effect which exiles a {permanent} then immediately returns it to the battlefield. This allows ETB effects to be reused, be it on the flickered creature or some other creature"
         ],
         "source": "MTG Wiki",
         "quote": "I'm gonna flicker my commander so your removal fizzles and I can get another drain off of Blood Artist",
@@ -1319,7 +1354,6 @@
             "Black/Green"
         ],
         "see_also": [
-            "Enemy Colors",
             "Boros",
             "Izzet",
             "Orzhov",
@@ -1346,7 +1380,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": []
+        "see_also": ["Bant", "Esper", "Jund", "Naya"]
     },
     {
         "name": "Group Hug",
@@ -1426,7 +1460,7 @@
         "name": "Hexproof",
         "type": "Keyword",
         "description": [
-            "This permanent can't be the target of spells or abilities your opponents control"
+            "This {permanent} can't be the target of spells or abilities your opponents control"
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -1538,7 +1572,6 @@
             "Blue/Red"
         ],
         "see_also": [
-            "Enemy Colors",
             "Boros",
             "Golgari",
             "Orzhov",
@@ -1564,8 +1597,8 @@
         ],
         "source": "MTG Wiki",
         "quote": "",
-        "synonyms": [],
-        "see_also": []
+        "synonyms": ["Blue/Red/White"],
+        "see_also": ["Abzan", "Mardu", "Sultai", "Temur"]
     },
     {
         "name": "Job Select",
@@ -1579,17 +1612,6 @@
         "see_also": []
     },
     {
-        "name": "Speed",
-        "type": "Mechanic",
-        "description": [
-            "Introduced in Aetherdrift, Speed is a resource that slowly increases once it is enabled. A player starts gaining speed once they control a {permanent} with 'Start Your Engines'. Whenever an opponent loses life during that player's turn, they increase speed by 1, up to a maximum of 4. At 4 speed, the player is at 'Max Speed', and some cards care about being at max speed."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
         "name": "Jund",
         "type": "Concept",
         "description": [
@@ -1598,7 +1620,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": []
+        "see_also": ["Bant", "Esper", "Grixis", "Naya"]
     },
     {
         "name": "Keyword",
@@ -1820,8 +1842,8 @@
         ],
         "source": "MTG Wiki",
         "quote": "",
-        "synonyms": [],
-        "see_also": []
+        "synonyms": ["Red/White/Black"],
+        "see_also": ["Abzan", "Jeskai", "Sultai", "Temur"]
     },
     {
         "name": "MDFC",
@@ -1898,7 +1920,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": []
+        "see_also": ["Bant", "Esper", "Grixis", "Jund"]
     },
     {
         "name": "Netdeck",
@@ -1945,7 +1967,6 @@
             "White/Black"
         ],
         "see_also": [
-            "Enemy Colors",
             "Boros",
             "Golgari",
             "Izzet",
@@ -2063,7 +2084,7 @@
         "description": [
             "Concept - Powerful spellcasters able to travel between planes. Planeswalkers are typically the main characters in Magic lore, and players are meant to be planeswalkers in the lore.",
             "",
-            "Type - A permanent with powerful effects meant to represent the immense power of planeswalkers. Planeswalkers have a loyalty counter instead of power/toughness, and activated abilities which influence said counter. Planeswalkers can be directly targeted by creatures during combat, and any damage they take translates to losing that many loyalty counters."
+            "Type - A {permanent} with powerful effects meant to represent the immense power of planeswalkers. Planeswalkers have a loyalty counter instead of power/toughness, and activated abilities which influence said counter. Planeswalkers can be directly targeted by creatures during combat, and any damage they take translates to losing that many loyalty counters."
         ],
         "source": "",
         "quote": "",
@@ -2302,7 +2323,7 @@
         "name": "Sacrifice",
         "type": "Keyword",
         "description": [
-            "To put a permanent you control into its owners graveyard. Note this is not destroying the creature, but sending it directly to the graveyard, so it bypasses {indestructible}."
+            "To put a {permanent} you control into its owners graveyard. Note this is not destroying the creature, but sending it directly to the graveyard, so it bypasses {indestructible}."
         ],
         "source": "",
         "quote": "",
@@ -2390,12 +2411,12 @@
         "name": "Shard",
         "type": "Slang",
         "description": [
-            "A three color combination of a color and its {allied colors}, its neighbors on the {color pie}. The term, as well as each group's name, is derived from the five shards of Alara:",
-            "Bant: {G} {W} {U}",
-            "Esper: {W} {U} {B}",
-            "Grixis: {U} {B} {R}",
-            "Jund: {B} {R} {G}",
-            "Naya: {R} {G} {W}"
+            "A three color combination of a color and its {allied colors}, its neighbors on the {color pie}. The term, as well as each group's name, come from the five shards of Alara:",
+            "{Bant}: {G} {W} {U}",
+            "{Esper}: {W} {U} {B}",
+            "{Grixis}: {U} {B} {R}",
+            "{Jund}: {B} {R} {G}",
+            "{Naya}: {R} {G} {W}"
         ],
         "source": "",
         "quote": "",
@@ -2419,7 +2440,7 @@
         "name": "Shroud",
         "type": "Keyword",
         "description": [
-            "This permanent or player can’t be the target of spells or abilities."
+            "This {permanent} or player can’t be the target of spells or abilities."
         ],
         "source": "Reminder Text",
         "quote": "Buddy, you put shroud on it. You can't target it with that spell.",
@@ -2449,7 +2470,6 @@
             "Green/Blue"
         ],
         "see_also": [
-            "Enemy Colors",
             "Boros",
             "Golgari",
             "Izzet",
@@ -2529,6 +2549,17 @@
         "type": "Type",
         "description": [
             "An {artifact} which can {station} other creatures to add charge counters. Spacecraft unlock abilities or become a creature at certain thresholds of charge counters."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Speed",
+        "type": "Mechanic",
+        "description": [
+            "Introduced in Aetherdrift, Speed is a resource that slowly increases once it is enabled. A player starts gaining speed once they control a {permanent} with 'Start Your Engines'. Whenever an opponent loses life during that player's turn, they increase their speed by 1, up to a maximum of 4. At 4 speed, the player is at 'Max Speed', and some cards provide effects at Max Speed."
         ],
         "source": "",
         "quote": "",
@@ -2645,7 +2676,7 @@
         "name": "Station",
         "type": "Keyword",
         "description": [
-            "Tap another creature you control: Put charge counters equal to its power on this permanent. Station only as a sorcery."
+            "Tap another creature you control: Put charge counters equal to its power on this {permanent}. Station only as a sorcery."
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -2696,7 +2727,7 @@
         "synonyms": [
             "Black/Green/Blue"
         ],
-        "see_also": []
+        "see_also": ["Abzan", "Jeskai", "Mardu", "Temur"]
     },
     {
         "name": "Superfriends",
@@ -2799,13 +2830,13 @@
         "synonyms": [
             "Green/Blue/Red"
         ],
-        "see_also": []
+        "see_also": ["Abzan", "Jeskai", "Mardu", "Sultai"]
     },
     {
         "name": "Token",
         "type": "Concept",
         "description": [
-            "A permanent that is not represented by a card. Tokens are created by other spells and abilities, rather than directly cast."
+            "A {permanent} that is not represented by a card. Tokens are created by other spells and abilities, rather than directly cast."
         ],
         "source": "",
         "quote": "",
@@ -2964,30 +2995,6 @@
         "see_also": []
     },
     {
-        "name": "Exhaust",
-        "type": "Keyword",
-        "description": [
-            "An {activated ability} which can only be used once a game. This restriction is only for each instance of a card."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Cycling",
-        "type": "Keyword",
-        "description": [
-            "Cycling COST - COST, Discard this card: Draw a card",
-            "",
-            "TYPE Cycling COST - COST, Discard this card: Search your library for a TYPE card, reveal it, put it into your hand, then shuffle"
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
         "name": "Vigilance",
         "type": "Keyword",
         "description": [
@@ -3013,7 +3020,7 @@
         "name": "Void",
         "type": "Keyword",
         "description": [
-            "X happens if a nonland permanent left the battlefield this turn or a spell was {warp}ed this turn"
+            "X happens if a nonland {permanent} left the battlefield this turn or a spell was {warp}ed this turn"
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -3058,11 +3065,11 @@
         "type": "Concept",
         "description": [
             "A three color combination of a color and its {enemy colors}, the colors opposite it on the {color pie}. The names of each wedge come from the five clans of Tarkir:",
-            "Abzan: {W} {B} {G}",
-            "Jeskai: {U} {R} {W}",
-            "Sultai: {B} {G} {U}",
-            "Mardu: {R} {W} {B}",
-            "Temur: {G} {U} {R}",
+            "{Mardu}: {R} {W} {B}",
+            "{Temur}: {G} {U} {R}",
+            "{Abzan}: {W} {B} {G}",
+            "{Jeskai}: {U} {R} {W}",
+            "{Sultai}: {B} {G} {U}",
             "The name 'wedge' comes from the triangular shape made when connecting the three colors on the {color pie}."
         ],
         "source": "MTG Wiki",
@@ -3074,7 +3081,7 @@
         "name": "Wheel",
         "type": "Slang",
         "description": [
-            "An effect which makes one or more players, often all of them, discard their hand and draw a new hand. Named after Wheel of Fortune."
+            "An effect which makes one or more players, often everyone, discard their hand and draw a new hand. Named after Wheel of Fortune."
         ],
         "source": "MTG Wiki",
         "quote": "",

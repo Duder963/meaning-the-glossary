@@ -81,8 +81,8 @@ export default function GlossarySuite() {
                 {cards}
             </div>
             {listTerms != glossary && <button
-                className="text-2xl rounded-full bg-blue-900 w-1/2 mx-auto"
-                onClick={ShowAllTerms}>Show All Terms</button>}
+                className="text-2xl font-bold rounded-full bg-blue-900 w-full lg:w-1/2 mx-auto"
+                onClick={ShowAllTerms}>{`Show All ${glossary.length} Terms`}</button>}
         </div>
     )
 }
