@@ -51,15 +51,15 @@ export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, 
     const parsed_description = ParseDescription(description)
 
     //Add links to See Also
-    const linked_see_also = see_also.map((term, i) => {
-        const link: string = term
+    const linked_see_also = see_also.map((entry, i) => {
+        const link: string = entry
                             .split(" ")
                             .map(w => w[0].toUpperCase()+w.slice(1))
                             .join("")
-        return <span key={term}>
+        return <span key={entry}>
             {/* Add comma before each entry after the first */}
             {!!i && ", "}
-            <Link href={`/?term=${link}`} onClick={(event) => {event.preventDefault(); addToList(link)}} className='underline'>{term}</Link>
+            <Link href={`/?term=${link}`} onClick={(event) => {event.preventDefault(); addToList(link, term.name)}} className='underline'>{entry}</Link>
         </span>
     })
 
