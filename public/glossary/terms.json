@@ -701,6 +701,19 @@
         "see_also": []
     },
     {
+        "name": "Cycling",
+        "type": "Keyword",
+        "description": [
+            "Cycling COST - COST, Discard this card: Draw a card",
+            "",
+            "TYPE Cycling COST - COST, Discard this card: Search your library for a TYPE card, reveal it, put it into your hand, then shuffle"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Dead Card",
         "type": "Slang",
         "description": [
@@ -897,8 +910,7 @@
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-        ]
+        "see_also": []
     },
     {
         "name": "Dud",
@@ -1066,6 +1078,17 @@
             "In the context of {draft}, i.e. {BREAD}, applies to any creature featuring some evasion ability."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Exhaust",
+        "type": "Keyword",
+        "description": [
+            "An {activated ability} which can only be used once a game. This restriction is only for each instance of a card."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -2518,6 +2541,17 @@
         "type": "Type",
         "description": [
             "An {artifact} which can {station} other creatures to add charge counters. Spacecraft unlock abilities or become a creature at certain thresholds of charge counters."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Speed",
+        "type": "Mechanic",
+        "description": [
+            "Introduced in Aetherdrift, Speed is a resource that slowly increases once it is enabled. A player starts gaining speed once they control a {permanent} with 'Start Your Engines'. Whenever an opponent loses life during that player's turn, they increase speed by 1, up to a maximum of 4. At 4 speed, the player is at 'Max Speed', and some cards care about being at max speed."
         ],
         "source": "",
         "quote": "",

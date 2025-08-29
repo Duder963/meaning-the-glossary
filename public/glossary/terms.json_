@@ -37,6 +37,17 @@
         ]
     },
     {
+        "name": "Aftermath",
+        "type": "Keyword",
+        "description": [
+            "Allows the second half of a split card to be cast only from the graveyard, then {exile} it."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Aggro",
         "type": "Slang",
         "description": [
@@ -116,6 +127,17 @@
         "see_also": []
     },
     {
+        "name": "Artifact",
+        "type": "Type",
+        "description": [
+            "A permanent which represents objects and devices, magical or constructed."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Aura",
         "type": "Type",
         "description": [
@@ -188,7 +210,7 @@
         "quote": "",
         "synonyms": [],
         "see_also": [
-            "Dual Lands"
+            "Dual Land"
         ]
     },
     {
@@ -870,15 +892,12 @@
         "name": "Dual Land",
         "type": "Concept",
         "description": [
-            "A non-{basic land} land which can produce two colors of mana. Especially refers to the original ten dual lands which featured no restrictions on their use, making them incredibly powerful and rare, especially since all ten are on the {reserved list}",
-            "",
-            "Several different kinds of dual lands exist, each with their own advantages and disadvantages. For a comprehensive list of each category of dual lands, check back later. Maybe Duder'll get around to it."
+            "A non-{basic land} land which can produce two colors of mana. Especially refers to the original ten dual lands which featured no restrictions on their use, making them incredibly powerful and rare, especially since all ten are on the {reserved list}."
         ],
         "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
         "see_also": [
-            "If you see this, yell at Duder to make the dual lands entries"
         ]
     },
     {
@@ -1232,6 +1251,19 @@
         "see_also": []
     },
     {
+        "name": "Fuse",
+        "type": "Keyword",
+        "description": [
+            "You may cast one or both halves of this card from your hand."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Split Card"
+        ]
+    },
+    {
         "name": "Game Changers",
         "type": "Concept",
         "description": [
@@ -1542,6 +1574,17 @@
             "When this {Equipment} enters, create a 1/1 colorless Hero creature token, then attach this Equipment to it."
         ],
         "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Speed",
+        "type": "Mechanic",
+        "description": [
+            "Introduced in Aetherdrift, Speed is a resource that slowly increases once it is enabled. A player starts gaining speed once they control a {permanent} with 'Start Your Engines'. Whenever an opponent loses life during that player's turn, they increase speed by 1, up to a maximum of 4. At 4 speed, the player is at 'Max Speed', and some cards care about being at max speed."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -2281,39 +2324,6 @@
         ]
     },
     {
-        "name": "Artifact",
-        "type": "Type",
-        "description": [
-            "A permanent which represents objects and devices, magical or constructed."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
-        "name": "Fuse",
-        "type": "Keyword",
-        "description": [
-            "You may cast one or both halves of this card from your hand."
-        ],
-        "source": "Reminder Text",
-        "quote": "",
-        "synonyms": [],
-        "see_also": ["Split Card"]
-    },
-    {
-        "name": "Aftermath",
-        "type": "Keyword",
-        "description": [
-            "Allows the second half of a split card to be cast only from the graveyard, then {exile} it."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
         "name": "Saga",
         "type": "Type",
         "description": [
@@ -2398,7 +2408,7 @@
         "name": "Shock Land",
         "type": "Slang",
         "description": [
-            "A {dual land} which enters the battlefield tapped unless its controller pays two life. Named for Shock, a spell that deals two damage, since having the land come in untapped is similar to shocking yourself."
+            "A {dual land} which enters the battlefield tapped unless its controller pays two life. Named for Shock, a {spell} which deals two damage, since having the land come in untapped is similar to shocking yourself."
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -2746,17 +2756,6 @@
         "see_also": []
     },
     {
-        "name": "Tap",
-        "type": "Keyword",
-        "description": [
-            "Rotate an upright card 90 degrees to signify it has been 'used'."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
         "name": "Tapped Out",
         "type": "Slang",
         "description": [
@@ -2960,6 +2959,30 @@
             "An {artifact} which can become an artifact creature once it gets enough {crew}."
         ],
         "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Exhaust",
+        "type": "Keyword",
+        "description": [
+            "An {activated ability} which can only be used once a game. This restriction is only for each instance of a card."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Cycling",
+        "type": "Keyword",
+        "description": [
+            "Cycling COST - COST, Discard this card: Draw a card",
+            "",
+            "TYPE Cycling COST - COST, Discard this card: Search your library for a TYPE card, reveal it, put it into your hand, then shuffle"
+        ],
+        "source": "Reminder Text",
         "quote": "",
         "synonyms": [],
         "see_also": []
