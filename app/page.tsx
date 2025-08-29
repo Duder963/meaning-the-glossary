@@ -3,7 +3,7 @@ import { Suspense } from 'react'
 
 export default function Home() {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <Suspense>
             <GlossarySuite />
             </Suspense>

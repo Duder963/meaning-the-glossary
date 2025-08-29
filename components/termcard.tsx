@@ -65,7 +65,7 @@ export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, 
 
     return (
         <div 
-            className="term-card bg-slate-700 rounded-2xl flex flex-col gap-1 px-4 lg:px-12 py-2 shadow-xl overflow-hidden *:text-center"
+            className="term-card bg-slate-700 rounded-2xl flex flex-col gap-1 px-4 lg:px-12 py-2 shadow-xl *:text-center"
             style={{animationDelay: `${delay}s`}}
         >
             <div>
