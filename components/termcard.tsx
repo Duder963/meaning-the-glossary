@@ -23,7 +23,7 @@ export interface GlossaryTerm {
 
 //Delay: Delays slide in animation
 //addToList: function to add term to list. Passed from parent list
-export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, delay: number, addToList: (s: string) => void}) {
+export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, delay: number, addToList: (s: string, t: string) => void}) {
 
     function ParseDescription(description: string[]) {
         //In which duder reinvents parts of markdown
@@ -38,7 +38,7 @@ export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, 
             .split(" ") //separate words into strings
             .map(w => w[0].toUpperCase()+w.slice(1)) //Jank solution to capitalize word
             .join("")
-            return <Link key={match+i} onClick={(event) => {event.preventDefault(); addToList(link)}} href={`/?term=${link}`} className='underline'>{match}</Link>
+            return <Link key={match+i} onClick={(event) => {event.preventDefault(); addToList(link, term.name)}} href={`/?term=${link}`} className='underline'>{match}</Link>
         })
 
         //Link to external sites. TODO

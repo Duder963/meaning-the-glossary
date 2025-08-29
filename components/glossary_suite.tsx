@@ -58,16 +58,18 @@ export default function GlossarySuite() {
         setListInfo(`Showing all ${glossary.length} terms`)
     }
 
-    function AddToList(link:string) {
+    function AddToList(link:string, source_term:string) {
         const term = glossary.filter((t) => t.name.replace(/\s/g, "") === link)
 
         //If term exists and not in listTerms, add to list
-        if (term.length && !listTerms.filter((t) => t.name.replace(/\s/g, "") === link).length)
-            setListTerms(listTerms.concat(term))
+        if (term.length && !listTerms.filter((t) => t.name.replace(/\s/g, "") === link).length){
+            const idx = listTerms.findIndex(e => e.name === source_term)
+            setListTerms(listTerms.toSpliced(idx+1,0,term[0]))
+        }
     }
 
     let delay = 0.0 //Lets cards slide in one by one. Kinda screws up if reloading a massive list in place
-    const cards = listTerms.map((term,i) => <TermCard key={term.name + i} term={term} delay={delay += 0.03} addToList={AddToList} />)
+    const cards = listTerms.map((term) => <TermCard key={term.name} term={term} delay={delay += 0.03} addToList={AddToList} />)
 
     return (
         <div className="flex flex-col mx-auto gap-4 p-2 w-9/10 sm:w-5/6 md:2/3 xl:w-1/3">
