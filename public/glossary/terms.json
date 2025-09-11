@@ -32,7 +32,7 @@
         "name": "Adventure",
         "type": "Type",
         "description": [
-            "A secondary {instant} or {sorcery} attached to a {permanent}. Either the main spell or adventure can be cast from a player's hand. If the adventure is cast, the card is exiled, and the main spell can be cast from {exile} for its regular cost."
+            "A secondary {instant} or {sorcery} attached to a {permanent}. Either the main spell or the adventure can be cast from a player's hand. If the adventure is cast, the card is exiled, and the main spell can be cast from {exile} for its regular cost."
         ],
         "source": "",
         "quote": "",
@@ -214,7 +214,7 @@
             "Mountain {R}",
             "Forest {G}",
             "Wastes {C}",
-            "Basic lands are one of the few cards which bypass deckbuilding restrictions, such as the four-of-a-kind rule in 60-card formats, and the {singleton} rule in {Commander}"
+            "Basic lands are one of the few cards which bypass deckbuilding restrictions, such as the four-of-a-kind rule in a 60-card {format}, and the {singleton} rule in {Commander}"
         ],
         "source": "MTG Wiki",
         "quote": "",
@@ -231,6 +231,17 @@
         ],
         "source": "Description Source",
         "quote": "This is a quote using the word - Quote Sayer",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Battlefield",
+        "type": "Concept",
+        "description": [
+            "The main {zone} of play in a Magic game, the battlefield is where permanents reside upon being cast."
+        ],
+        "source": "",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -283,7 +294,7 @@
         "name": "Bomb",
         "type": "Slang",
         "description": [
-            "A card powerful enough to change the course of the game on its own. Usually used in the context of {limited} formats, where drafting or opening a bomb greatly improves one's chances at victory."
+            "A card powerful enough to change the course of the game on its own. Usually used in the context of a {limited} {format}, where drafting or opening a bomb greatly improves one's chances at victory."
         ],
         "source": "MTG Wiki",
         "quote": "I got carried so hard by that bomb I drafted last time",
@@ -451,7 +462,7 @@
         "name": "Chaff",
         "type": "Slang",
         "description": [
-            "Unremarkable cards, unlikely to be included in a {constructed} deck. Typically common or uncommon cards, but there are exceptions. Very frequently used in the context of 'draft chaff,' cards that are usually considered useless outside of a {limited} format, or even in the format."
+            "Unremarkable cards, unlikely to be included in a {constructed} deck. Typically common or uncommon cards, but there are exceptions. Very frequently used in the context of 'draft chaff,' cards that are usually considered useless outside of a {limited} {format}, or even within the format."
         ],
         "source": "MTG Wiki",
         "quote": "Wow this whole pack is nothing but chaff that's crazy",
@@ -578,7 +589,7 @@
         "name": "Command Zone",
         "type": "Concept",
         "description": [
-            "A special zone for a player's commander in a {Commander} game. The commander can be cast from the command zone and may return to it upon death, {exile}, or other {removal}. However, a commander {tax} of two mana is added after each casting of the commander."
+            "A special {zone} for a player's commander in a {Commander} game. The commander can be cast from the command zone and may return to it upon death, {exile}, or other {removal}. However, a commander {tax} of two mana is added after each casting of the commander."
         ],
         "source": "",
         "quote": "",
@@ -589,7 +600,7 @@
         "name": "Commander",
         "type": "Format",
         "description": [
-            "A highly popular {multiplayer} {constructed} format of MTG. Four players battle each other with 100-card decks, each with a legendary creature designated as their commander, who resides in the {command zone}. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
+            "A highly popular {multiplayer} {constructed} {format} of MTG. Four players battle each other with 100-card decks, each with a legendary creature designated as their commander, who resides in the {command zone}. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
         ],
         "source": "",
         "quote": "",
@@ -618,10 +629,21 @@
         ]
     },
     {
+        "name": "Connive",
+        "type": "Keyword",
+        "description": [
+            "Connive N - Draw N cards, then discard N cards. Put a +1/+1 counter on this creature for each nonland card discarded this way."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Constructed",
         "type": "Concept",
         "description": [
-            "Any format which allows players to construct decks beforehand using any of the legal cards within the format. The major constructed formats are:",
+            "Any {format} which allows players to construct decks beforehand using any of the legal cards within the format. The major constructed formats are:",
             "{Standard}",
             "{Modern}",
             "{Pioneer}",
@@ -715,7 +737,7 @@
         "name": "Cube",
         "type": "Format",
         "description": [
-            "A casual format where players create a large pool of cards they then proceed to {draft} from, in essence creating their very own Magic: The Gathering set."
+            "A casual {format} where players create a large pool of cards they then proceed to {draft} from, in essence creating their very own Magic: The Gathering {set}."
         ],
         "source": "MTG Wiki",
         "quote": "One of these days I'm gonna make my Sliver cube, just you wait.",
@@ -883,7 +905,7 @@
         "name": "Draft",
         "type": "Format",
         "description": [
-            "A format where each player receives 3 booster packs and selects cards one at a time from each players packs. Each player opens a pack, picks a single card, and passes the remaining cards to the next player, where they continuously repeat picking and passing. After every card from that round of packs is drafted, the process repeats with the remaining packs, changing pass direction each pack. Players then build a 40-card deck from their drafted cards, with basic lands provided, and no other restrictions."
+            "A {format} where each player receives 3 booster packs and selects cards one at a time from each players packs. Each player opens a pack, picks a single card, and passes the remaining cards to the next player, where they continuously repeat picking and passing. After every card from that round of packs is drafted, the process repeats with the remaining packs, changing pass direction each pack. Players then build a 40-card deck from their drafted cards, with basic lands provided, and no other restrictions."
         ],
         "source": "",
         "quote": "",
@@ -1124,7 +1146,7 @@
         "name": "Exile",
         "type": "Concept/Keyword",
         "description": [
-            "Concept - A game zone outside of the field of play. Exile mainly functions as a second graveyard, one which is far more difficult to return a card from. However, many abilities can exile a card and return it after some condition, or otherwise use exile as someplace not part of the game.",
+            "Concept - A {zone} outside of the field of play. Exile mainly functions as a second graveyard, one which is far more difficult to return a card from. However, many abilities can exile a card and return it after some condition, or otherwise use exile as a means of setting aside a card to be used later.",
             "",
             "Keyword - To send a card to the exile zone."
         ],
@@ -1238,11 +1260,15 @@
         "name": "Flicker",
         "type": "Slang",
         "description": [
-            "A spell or effect which exiles a {permanent} then immediately returns it to the battlefield. This allows ETB effects to be reused, be it on the flickered creature or some other creature"
+            "A spell or effect which exiles a {permanent} then returns it to the battlefield. This allows ETB effects to be reused, be it on the flickered creature or some other creature",
+            "",
+            "There are two main 'speeds' of flickering, returning the permanent instantly, or at the next end step. Flicker and Blink are sometimes interchangeably used for both of these speeds."
         ],
         "source": "MTG Wiki",
-        "quote": "I'm gonna flicker my commander so your removal fizzles and I can get another drain off of Blood Artist",
-        "synonyms": [],
+        "quote": "I'm gonna flicker my commander so your removal fizzles and I can get a ping off of Outpost Siege",
+        "synonyms": [
+            "Blink"
+        ],
         "see_also": []
     },
     {
@@ -1296,6 +1322,17 @@
             "To forage, exile three cards from your graveyard or sacrifice a Food."
         ],
         "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Format",
+        "type": "Concept",
+        "description": [
+            "A way of playing Magic. The two competitive categories of formats are {constructed} and {limited}, but many casual formats exist as well, such as {cube}."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1376,6 +1413,21 @@
         ]
     },
     {
+        "name": "Graveyard",
+        "type": "Concept",
+        "description": [
+            "The {zone} where cards go upon discard, {sacrifice}, or in the case of a {spell}, resolution.",
+            "",
+            "Cards in the graveyard are usually irrelevant, however mechanics like {flashback} and {dredge} can return cards from the graveyard, making it a possible resource."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Exile"
+        ]
+    },
+    {
         "name": "Grip",
         "type": "Slang",
         "description": [
@@ -1431,6 +1483,17 @@
             "Rakdos",
             "Selesnya"
         ]
+    },
+    {
+        "name": "Hand",
+        "type": "Concept",
+        "description": [
+            "A {zone} containing the cards a player has drawn but not played."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Harmonize",
@@ -1710,7 +1773,18 @@
         "name": "Legacy",
         "type": "Format",
         "description": [
-            "A {constructed} format where players construct 60-card decks where every regular card ever printed is legal. Unlike {Vintage}, there are no restricted cards, however some Vintage-legal cards are banned."
+            "A {constructed} {format} where players construct 60-card decks where every regular card ever printed is legal. Unlike {Vintage}, there are no restricted cards, however some Vintage-legal cards are banned."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Legend Rule",
+        "type": "Concept",
+        "description": [
+            "If a player controls more than one legendary {permanent} of the same name at a time, that player must choose one and send the others to the {graveyard} as a {state based action}. This is not destruction or {sacrifice}, but does count as a death."
         ],
         "source": "",
         "quote": "",
@@ -1721,7 +1795,7 @@
         "name": "Library",
         "type": "Concept",
         "description": [
-            "A player's deck. Used primarily in game, whereas deck is used outside of a game."
+            "The {zone} representing a player's deck. The term is used primarily in game, whereas 'deck' is used outside of a game."
         ],
         "source": "",
         "quote": "",
@@ -1743,7 +1817,7 @@
         "name": "Limited",
         "type": "Concept",
         "description": [
-            "A format where a player's card selection more restricted than typical {constructed} formats. The major limited formats are {sealed} and {draft}."
+            "A {format} where a player's card selection more restricted than typical {constructed} formats. The major limited formats are {sealed} and {draft}."
         ],
         "source": "",
         "quote": "",
@@ -1885,6 +1959,17 @@
         ]
     },
     {
+        "name": "Mayhem",
+        "type": "Keyword",
+        "description": [
+            "Mayhem COST - You may cast this card from your graveyard for COST if you discarded it this turn. Timing rules still apply."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "MDFC",
         "type": "Keyword",
         "description": [
@@ -1932,7 +2017,18 @@
         "name": "Modern",
         "type": "Format",
         "description": [
-            "A {constructed} format where players build 60-card decks from any regular or Modern Horizons sets released from Eighth Edition onwards. Named after the 'modern' card frame introduced with Eighth Edition."
+            "A {constructed} {format} where players build 60-card decks from any regular or Modern Horizons sets released from Eighth Edition onwards. Named after the 'modern' card frame introduced with Eighth Edition."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Modified",
+        "type": "Concept",
+        "description": [
+            "A creature with an {equipment}, {aura}, or {counter} on it is considered modified."
         ],
         "source": "",
         "quote": "",
@@ -1943,7 +2039,7 @@
         "name": "Multiplayer",
         "type": "Concept",
         "description": [
-            "Any format where more than two players play at a time."
+            "Any {format} where more than two players play at a time."
         ],
         "source": "",
         "quote": "Wait, every format requires multiple players. Doesn't that make every format multiplayer?",
@@ -2104,7 +2200,7 @@
         "name": "Pioneer",
         "type": "Format",
         "description": [
-            "A {constructed} format where players build 60-card decks from any regular set released from Return to Ravnica onwards."
+            "A {constructed} {format} where players build 60-card decks from any regular set released from Return to Ravnica onwards."
         ],
         "source": "",
         "quote": "",
@@ -2175,6 +2271,17 @@
             "In a {multiplayer} game such as {Commander}, players negotiating with and otherwise assisting one another to defeat other players. From a game design standpoint, “political” means that some decisions are based on an element of diplomacy, that players can talk to each other to influence how their opponents choose to play."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Prerelease",
+        "type": "Concept",
+        "description": [
+            "An event held one week before the official release of a new {set} where players battle against each other in a {sealed} environment using cards from the new set. Prerelease kits typically include extra goodies such as stamped foil cards, unique dice, or other incentives to join."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -2425,7 +2532,7 @@
         "name": "Sealed",
         "type": "Format",
         "description": [
-            "A format where each player receives 6 booster packs, and build a 40-card deck from that only that pool of cards. Basic lands are provided, and no other restrictions apply"
+            "A {format} where each player receives 6 booster packs and builds a 40-card deck from that only that pool of cards. Basic lands are provided, and no other restrictions apply"
         ],
         "source": "",
         "quote": "",
@@ -2450,6 +2557,17 @@
             "Gruul",
             "Rakdos"
         ]
+    },
+    {
+        "name": "Set",
+        "type": "Concept",
+        "description": [
+            "A pool of cards released together and designed for the same play environment."
+        ],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Shard",
@@ -2496,6 +2614,17 @@
         "type": "Type",
         "description": [
             "A subtype of {battle}, sieges are given to an opponent to defend, and can be targeted directly in combat. Upon its 'defeat', it is exiled and recast transformed on its owner's battlefield."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Signpost Uncommon",
+        "type": "Slang",
+        "description": [
+            "A two-color card in a {set} designed to showcase what the objective of that color pair is within a {limited} environment."
         ],
         "source": "",
         "quote": "",
@@ -2695,7 +2824,7 @@
         "name": "Standard",
         "type": "Format",
         "description": [
-            "A rotating {constructed} format where players build 60-card decks from the most recent sets."
+            "A rotating {constructed} {format} where players build 60-card decks from the most recent sets."
         ],
         "source": "",
         "quote": "",
@@ -2709,9 +2838,20 @@
         "name": "Staple",
         "type": "Slang",
         "description": [
-            "A prominent element in the game, be it common effects seen in every match, or common cards within a format."
+            "A prominent element in the game, be it common effects seen in every match, or common cards within a {format}."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "State Based Action",
+        "type": "Mechanic",
+        "description": [
+            "A game action that is automatically taken when certain conditions are met, checked whenever a player gains {priority}. These are more 'system level' actions, examples including destroying a creature once it takes enough damage, a player losing the game at 0 life, and resolving the {legend rule}. If multiple SBAs need to occur, they occur simultaneously."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -2994,6 +3134,30 @@
         ]
     },
     {
+        "name": "Universes Beyond",
+        "type": "Concept",
+        "description": [
+            "The branding used for any Magic {set} featuring outside intellectual properties. As of Final Fantasy in 2025, Universes Beyond sets are legal in {standard}."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Universes Within"
+        ]
+    },
+    {
+        "name": "Universes Within",
+        "type": "Slang",
+        "description": [
+            "A term used for {Universes Beyond} reprints rebranded to align with Magic's design. Despite the different names, Universes Within cards are considered the same as their Universes Beyond equivalent."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Valiant",
         "type": "Keyword",
         "description": [
@@ -3063,7 +3227,7 @@
         "name": "Vintage",
         "type": "Format",
         "description": [
-            "A {constructed} format where players construct 60-card decks where every regular card ever printed is legal. Differs from {Legacy} in that some Legacy-banned cards are instead restricted to being {singleton}."
+            "A {constructed} {format} where players construct 60-card decks where every regular card ever printed is legal. Differs from {Legacy} in that some Legacy-banned cards are instead restricted to being {singleton}."
         ],
         "source": "",
         "quote": "",
@@ -3108,6 +3272,17 @@
         "type": "Keyword",
         "description": [
             "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Web-slinging",
+        "type": "Keyword",
+        "description": [
+            "Web-slinging COST - You may cast this spell for COST if you also return a tapped creature you control to its owner's hand."
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -3190,6 +3365,17 @@
         "type": "Concept",
         "description": [
             "A variable which needs to be determined. X can appear as a mana cost or variable within the rules text of a card."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Zone",
+        "type": "Concept",
+        "description": [
+            "A place where a card or object can be during a game of Magic. The main zones are the {library}, {hand}, {battlefield}, {graveyard}, {exile}, {stack}, and {command zone}"
         ],
         "source": "",
         "quote": "",

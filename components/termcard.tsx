@@ -74,7 +74,7 @@ export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, 
                 </a>
             </div>
             <h3 className="text-3xl font-bold">{name}</h3>
-            <h4 className="text-xl md:text-2xl font-bold ">{type}</h4>
+            <h4 className="text-xl md:text-2xl">{type}</h4>
             <hr />
             <p className='whitespace-pre-line text-md'>{parsed_description}</p>
             {source.length > 0 && <p className=''>— {source}</p>}
