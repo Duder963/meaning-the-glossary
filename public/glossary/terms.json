@@ -3150,7 +3150,7 @@
         "name": "Universes Within",
         "type": "Slang",
         "description": [
-            "A term used for {Universes Beyond} reprints rebranded to align with Magic's design. Despite the different names, Universes Within cards are considered the same as their Universes Beyond equivalent."
+            "A term used for {Universes Beyond} reprints which have been rebranded to remove the outside intellectual property. Despite the different names, Universes Within cards are considered the same card as their Universes Beyond equivalent."
         ],
         "source": "",
         "quote": "",
@@ -3286,7 +3286,7 @@
         ],
         "source": "Reminder Text",
         "quote": "",
-        "synonyms": [],
+        "synonyms": ["Enweb"],
         "see_also": []
     },
     {
