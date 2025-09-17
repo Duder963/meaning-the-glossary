@@ -30,7 +30,7 @@ export default function TermCard({term, delay, addToList}: {term: GlossaryTerm, 
         let out: any = description.join("\n")
 
         //Inject mana symbols
-        out = reactStringReplace(out, /(\{(?:W|U|B|R|G|C)\})/gm, (match,i) => <i key={match+i} className={`ms ms-${match[1].toLowerCase()} ms-cost`} />)
+        out = reactStringReplace(out, /(\{(?:W|U|B|R|G|C|\d+)\})/gm, (match,i) => <i key={match+i} className={`ms ms-${match[1].toLowerCase()} ms-cost`} />)
 
         //Link to terms within glossary
         out = reactStringReplace(out, /\{(.*?)\}/, (match,i) => {

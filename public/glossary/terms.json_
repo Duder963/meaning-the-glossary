@@ -18,17 +18,6 @@
         ]
     },
     {
-        "name": "Signpost Uncommon",
-        "type": "Slang",
-        "description": [
-            "A two-color card in a {set} designed to showcase what the objective of that color pair is within a {limited} environment."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
         "name": "Activated Ability",
         "type": "Keyword",
         "description": [
@@ -611,13 +600,28 @@
         "name": "Commander",
         "type": "Format",
         "description": [
-            "A highly popular {multiplayer} {constructed} {format} of MTG. Four players battle each other with 100-card decks, each with a legendary creature designated as their commander, who resides in the {command zone}. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
+            "A highly popular {multiplayer} {constructed} {format} of MTG. Four players battle each other with 100-card decks, each with a legendary creature designated as their commander, who resides in the {command zone}.",
+            "",
+            "Almost every card in Magic history is legal, the only restrictions being that each card doesn't contain a color outside of the commander's {color identity}, and that every card other than basic lands is {singleton}."
         ],
         "source": "",
         "quote": "",
         "synonyms": [
             "EDH"
         ],
+        "see_also": []
+    },
+    {
+        "name": "Color Identity",
+        "type": "Concept",
+        "description": [
+            "A property of a card that determines whether it can be included in a {commander} deck. A card's color identity is determined by the mana symbols which appear in the mana cost and rules text, ignoring reminder text. Each card in a commander deck must not include a color outside of the commander's color identity.",
+            "",
+            "Example: Autumnal Gloom has a color identity of {G}{B}. Although its mana cost is {2}{G}, the {B} in its activated ability adds {B} to its color identity."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
         "see_also": []
     },
     {
@@ -1333,6 +1337,17 @@
             "To forage, exile three cards from your graveyard or sacrifice a Food."
         ],
         "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Format",
+        "type": "Concept",
+        "description": [
+            "A way of playing Magic. The two competitive categories of formats are {constructed} and {limited}, but many casual formats exist as well, such as {cube}."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -2540,17 +2555,6 @@
         "see_also": []
     },
     {
-        "name": "Format",
-        "type": "Concept",
-        "description": [
-            "A way of playing Magic. The two competitive categories of formats are {constructed} and {limited}, but many casual formats exist as well, such as {cube}."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
-        "see_also": []
-    },
-    {
         "name": "Selesnya",
         "type": "Concept",
         "description": [
@@ -2625,6 +2629,17 @@
         "type": "Type",
         "description": [
             "A subtype of {battle}, sieges are given to an opponent to defend, and can be targeted directly in combat. Upon its 'defeat', it is exiled and recast transformed on its owner's battlefield."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Signpost Uncommon",
+        "type": "Slang",
+        "description": [
+            "A two-color uncommon card in a {set} designed to showcase what the objective of that color pair is within a {limited} environment. Cracking a signpost uncommon can help guide you into what colors you should build for your limited deck."
         ],
         "source": "",
         "quote": "",
@@ -3150,7 +3165,7 @@
         "name": "Universes Within",
         "type": "Slang",
         "description": [
-            "A term used for {Universes Beyond} reprints rebranded to align with Magic's design. Despite the different names, Universes Within cards are considered the same as their Universes Beyond equivalent."
+            "A term used for {Universes Beyond} reprints which have been rebranded to remove the outside intellectual property. Despite the different names, Universes Within cards are considered the same card as their Universes Beyond equivalent."
         ],
         "source": "",
         "quote": "",
@@ -3286,7 +3301,7 @@
         ],
         "source": "Reminder Text",
         "quote": "",
-        "synonyms": [],
+        "synonyms": ["Enweb"],
         "see_also": []
     },
     {

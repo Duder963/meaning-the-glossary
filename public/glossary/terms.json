@@ -525,6 +525,19 @@
         "see_also": []
     },
     {
+        "name": "Color Identity",
+        "type": "Concept",
+        "description": [
+            "A property of a card that determines whether it can be included in a {commander} deck. A card's color identity is determined by the mana symbols which appear in the mana cost and rules text, ignoring reminder text. Each card in a commander deck must not include a color outside of the commander's color identity.",
+            "",
+            "Example: Autumnal Gloom has a color identity of {G}{B}. Although its mana cost is {2}{G}, the {B} in its activated ability adds {B} to its color identity."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Color Pie",
         "type": "Concept",
         "description": [
@@ -600,7 +613,9 @@
         "name": "Commander",
         "type": "Format",
         "description": [
-            "A highly popular {multiplayer} {constructed} {format} of MTG. Four players battle each other with 100-card decks, each with a legendary creature designated as their commander, who resides in the {command zone}. Almost every card in Magic history is legal, the only restriction being every card other than basic lands is {singleton}."
+            "A highly popular {multiplayer} {constructed} {format} of MTG. Four players battle each other with 100-card decks, each with a legendary creature designated as their commander, who resides in the {command zone}.",
+            "",
+            "Almost every card in Magic history is legal, the only restrictions being that each card doesn't contain a color outside of the commander's {color identity}, and that every card other than basic lands is {singleton}."
         ],
         "source": "",
         "quote": "",
@@ -3286,7 +3301,9 @@
         ],
         "source": "Reminder Text",
         "quote": "",
-        "synonyms": ["Enweb"],
+        "synonyms": [
+            "Enweb"
+        ],
         "see_also": []
     },
     {
