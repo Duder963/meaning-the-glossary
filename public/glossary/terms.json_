@@ -525,6 +525,19 @@
         "see_also": []
     },
     {
+        "name": "Color Identity",
+        "type": "Concept",
+        "description": [
+            "A property of a card that determines whether it can be included in a {commander} deck. A card's color identity is determined by the mana symbols which appear in the mana cost and rules text, ignoring reminder text. Each card in a commander deck must not include a color outside of the commander's color identity.",
+            "",
+            "Example: Autumnal Gloom has a color identity of {G}{B}. Although its mana cost is {2}{G}, the {B} in its activated ability adds {B} to its color identity."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Color Pie",
         "type": "Concept",
         "description": [
@@ -609,19 +622,6 @@
         "synonyms": [
             "EDH"
         ],
-        "see_also": []
-    },
-    {
-        "name": "Color Identity",
-        "type": "Concept",
-        "description": [
-            "A property of a card that determines whether it can be included in a {commander} deck. A card's color identity is determined by the mana symbols which appear in the mana cost and rules text, ignoring reminder text. Each card in a commander deck must not include a color outside of the commander's color identity.",
-            "",
-            "Example: Autumnal Gloom has a color identity of {G}{B}. Although its mana cost is {2}{G}, the {B} in its activated ability adds {B} to its color identity."
-        ],
-        "source": "",
-        "quote": "",
-        "synonyms": [],
         "see_also": []
     },
     {
@@ -747,6 +747,27 @@
         "see_also": [
             "Vehicle"
         ]
+    },
+    {
+        "name": "Crime",
+        "type": "Concept",
+        "description": [
+            "Introduced in Outlaws of Thunder Junction, A crime is committed when an action is placed on the {stack} which targets:",
+            "",
+            "An opponent",
+            "",
+            "A {spell} or ability an opponent controls",
+            "",
+            "A {permanent} an opponent controls",
+            "",
+            "A card in an opponent's graveyard",
+            "",
+            "Note the crime is already committed once the action is stacked, no matter what happens to it afterwards."
+        ],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Cube",
@@ -1741,10 +1762,7 @@
         "source": "",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-            "Keyword Ability",
-            "Keyword Action"
-        ]
+        "see_also": []
     },
     {
         "name": "Kicker",
@@ -1757,10 +1775,7 @@
         "source": "Meaning: The Glossary",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-            "word3",
-            "word4"
-        ]
+        "see_also": []
     },
     {
         "name": "Land Drop",
@@ -2647,6 +2662,28 @@
         "see_also": []
     },
     {
+        "name": "Silver Border",
+        "type": "Concept",
+        "description": [
+            "Cards from any {un-set} except Unfinity have a silver border, denoting they are not tournament legal. Unfinity instead used an {acorn} holofoil stamp to denote illegality."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Acorn",
+        "type": "Keyword",
+        "description": [
+            "The Unfinity {un-set} replaced the {silver border} with an acorn holofoil stamp to denote cards being tournament illegal, done so the set could also include tournament legal cards."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Simic",
         "type": "Concept",
         "description": [
@@ -3301,7 +3338,9 @@
         ],
         "source": "Reminder Text",
         "quote": "",
-        "synonyms": ["Enweb"],
+        "synonyms": [
+            "Enweb"
+        ],
         "see_also": []
     },
     {

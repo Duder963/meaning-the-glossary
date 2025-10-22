@@ -18,6 +18,17 @@
         ]
     },
     {
+        "name": "Acorn",
+        "type": "Keyword",
+        "description": [
+            "The Unfinity {un-set} replaced the {silver border} with an acorn holofoil stamp to denote cards being tournament illegal, done so the set could also include tournament legal cards."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Activated Ability",
         "type": "Keyword",
         "description": [
@@ -334,7 +345,7 @@
         "name": "Bracket 1",
         "type": "Concept",
         "description": [
-            "Exhibition: Intended for decks more focused on showcasing a theme or experience than actually winning. No {Game Changers}, intentional two-card infinite combos, mass land destruction, or extra turns, and few {tutor} cards."
+            "Exhibition: Intended for decks more focused on showcasing a theme or experience than actually winning. No {Game Changers}, intentional two-card infinite combos, mass land destruction, or extra turns."
         ],
         "source": "",
         "quote": "I built a bracket 1 deck where all the cards are Rush lyrics.",
@@ -347,7 +358,7 @@
         "name": "Bracket 2",
         "type": "Concept",
         "description": [
-            "Core: Decks are focused and have a theme, but with sub-optimal cards and strategies. Comparable to the average precon. No {Game Changers}, intentional two-card infinite combos, or mass land destruction, few {tutor} cards, and extra turns should be sparse and not chained together."
+            "Core: Decks are focused and have a theme, but with sub-optimal cards and strategies. No {Game Changers}, intentional two-card infinite combos, or mass land destruction, and extra turns should be sparse and not chained together."
         ],
         "source": "",
         "quote": "You're telling me Explorers of the Deep is bracket 2?",
@@ -375,8 +386,8 @@
         "description": [
             "Optimized: Decks using the strongest cards possible, aiming to optimize their strategy to ensure victory on a competitive level. No limits aside from banned cards."
         ],
-        "source": "I'm gonna shove every game changer into my deck and call it bracket 4.",
-        "quote": "",
+        "source": "",
+        "quote": "I'm gonna shove every Game Changer into my deck and call it bracket 4.",
         "synonyms": [],
         "see_also": [
             "Commander Bracket"
@@ -630,7 +641,7 @@
         "description": [
             "A system created by the {Commander} Format Panel to help players communicate the power of their deck in a matchmaking setting. There are five brackets, and the higher the bracket, the less restrictions on {Game Changers} and play patterns.",
             "",
-            "Note that the provided restrictions are guidelines and are meant to be taken in good faith, not nitpicked to misrepresent a deck's power level. A bad deck with a game changer is automatically Bracket 3, but a Bracket 4 deck could be built without game changers, infinites, mass land destruction, or tutors. Of course, {Rule Zero} always applies."
+            "Note that the provided restrictions are guidelines and are meant to be taken in good faith, not nitpicked to misrepresent a deck's power level. A bad deck with a game changer may automatically be Bracket 3, but a Bracket 4 level deck could be built without game changers, infinites, or mass land destruction. Of course, {Rule Zero} always applies."
         ],
         "source": "",
         "quote": "",
@@ -747,6 +758,27 @@
         "see_also": [
             "Vehicle"
         ]
+    },
+    {
+        "name": "Crime",
+        "type": "Concept",
+        "description": [
+            "Introduced in Outlaws of Thunder Junction, A crime is committed when an action is placed on the {stack} which targets:",
+            "",
+            "An opponent",
+            "",
+            "A {spell} or ability an opponent controls",
+            "",
+            "A {permanent} an opponent controls",
+            "",
+            "A card in an opponent's graveyard",
+            "",
+            "Note the crime is already committed once the action is stacked, no matter what happens to it afterwards."
+        ],
+        "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
     },
     {
         "name": "Cube",
@@ -1741,10 +1773,7 @@
         "source": "",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-            "Keyword Ability",
-            "Keyword Action"
-        ]
+        "see_also": []
     },
     {
         "name": "Kicker",
@@ -1757,10 +1786,7 @@
         "source": "Meaning: The Glossary",
         "quote": "",
         "synonyms": [],
-        "see_also": [
-            "word3",
-            "word4"
-        ]
+        "see_also": []
     },
     {
         "name": "Land Drop",
@@ -2640,6 +2666,17 @@
         "type": "Slang",
         "description": [
             "A two-color uncommon card in a {set} designed to showcase what the objective of that color pair is within a {limited} environment. Cracking a signpost uncommon can help guide you into what colors you should build for your limited deck."
+        ],
+        "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Silver Border",
+        "type": "Concept",
+        "description": [
+            "Cards from any {un-set} except Unfinity have a silver border, denoting they are not tournament legal. Unfinity instead used an {acorn} holofoil stamp to denote illegality."
         ],
         "source": "",
         "quote": "",

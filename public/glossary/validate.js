@@ -19,9 +19,15 @@ for (let i in data){
     terms.add(data[i].name.replace(/\s/g, ""))
 
     let description = data[i].description.join("\n")
-    let found_links = description.match(/(?!\{W\}|\{U\}|\{B\}|\{R\}|\{G\}|\{C\}|\{\d\})\{(.*?)\}/g);
-    if (found_links) found_links.concat(data[i].see_also)
-    if (found_links) for (let j in found_links){
+
+    //Get bracketed words that aren't mana symbols
+    let found_links = [].concat(description.match(/(?!\{W\}|\{U\}|\{B\}|\{R\}|\{G\}|\{C\}|\{\d\})\{(.*?)\}/g));
+
+    if (found_links[0] == null) found_links.pop() //Pop null returned from failed match
+    found_links = found_links.concat(data[i].see_also)
+    if (found_links.length) for (let j in found_links){
+        if (found_links[j][0] != "{")
+            found_links[j] = "{" + found_links[j] + "}"
         links.add(found_links[j]
             .slice(1,-1)
             .split(" ")
