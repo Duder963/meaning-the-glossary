@@ -80,6 +80,19 @@
         ]
     },
     {
+        "name": "Airbend",
+        "type": "Keyword",
+        "description": [
+            "Exile target. While exiled, its owner may cast it for {2} rather than its mana cost."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": [
+            "Flicker"
+        ]
+    },
+    {
         "name": "Allied Colors",
         "type": "Concept",
         "description": [
@@ -525,6 +538,17 @@
         "see_also": []
     },
     {
+        "name": "Clue",
+        "type": "Token",
+        "description": [
+            "An {artifact} with '{2}, {Sacrifice} this artifact: Draw a card'"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Collect Evidence",
         "type": "Keyword",
         "description": [
@@ -555,6 +579,17 @@
             "The circular arrangement of all five colors, visible on the back of every Magic card. The pie manages to show all five colors and the relationships between each other, neighbors being {allied colors}, and the colors opposite each other {enemy colors}."
         ],
         "source": "MTG Wiki",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Colorless Mana",
+        "type": "Concept",
+        "description": [
+            "Mana which lacks a color, represented by {C}. Colorless mana is often generated either by artifacts and other 'scientific' sources, or Eldrazi sources, e.g. wastes. Colorless mana can pay for generic mana, however there are a few cards explicitly requiring colorless mana to play."
+        ],
+        "source": "",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -766,11 +801,8 @@
             "Introduced in Outlaws of Thunder Junction, A crime is committed when an action is placed on the {stack} which targets:",
             "",
             "An opponent",
-            "",
             "A {spell} or ability an opponent controls",
-            "",
             "A {permanent} an opponent controls",
-            "",
             "A card in an opponent's graveyard",
             "",
             "Note the crime is already committed once the action is stacked, no matter what happens to it afterwards."
@@ -1011,6 +1043,17 @@
         ],
         "source": "MTG Wiki",
         "quote": "Man I've just been drafting nothing but duds",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Earthbend",
+        "type": "Keyword",
+        "description": [
+            "Earthbend N - Target land you control becomes a 0/0 land creature with haste and N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -1260,6 +1303,17 @@
         "see_also": []
     },
     {
+        "name": "Firebending",
+        "type": "Keyword",
+        "description": [
+            "Firebending N - Whenever this creature attacks, add N {R}. This mana lasts until the end of combat."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "First Strike",
         "type": "Keyword",
         "description": [
@@ -1363,6 +1417,17 @@
         "see_also": []
     },
     {
+        "name": "Food",
+        "type": "Token",
+        "description": [
+            "An {artifact} with '{2}, {tap}, Sacrifice this token: You gain 3 life.'"
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
         "name": "Forage",
         "type": "Keyword",
         "description": [
@@ -1404,6 +1469,17 @@
             "Cards the {Commander} Format Panel has deemed so powerful or game-warping they must be restricted or banned below a certain {commander bracket}. While not quite ban worthy, game changers are definitely the most likely cards to get banned in the future."
         ],
         "source": "",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Generic Mana",
+        "type": "Concept",
+        "description": [
+            "A mana cost that can be paid with mana of any type. Represented by a number in a gray circle, e.g. {3} {7} {X}"
+        ],
+        "source": "MTG Wiki",
         "quote": "",
         "synonyms": [],
         "see_also": []
@@ -1683,7 +1759,7 @@
         "name": "Investigate",
         "type": "Keyword",
         "description": [
-            "Create a Clue token. It's an artifact with '{2}, Sacrifice this artifact: Draw a card'"
+            "Create a {Clue} token. It's an artifact with '{2}, Sacrifice this artifact: Draw a card'"
         ],
         "source": "Reminder Text",
         "quote": "",
@@ -2346,6 +2422,17 @@
         ],
         "source": "Reminder Text",
         "quote": "Remember that protection keeps you out of DEBT. Damage, Enchant/Equip, Block, Target.",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Prowess",
+        "type": "Keyword",
+        "description": [
+            "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
         "synonyms": [],
         "see_also": []
     },
@@ -3324,6 +3411,17 @@
         "type": "Keyword",
         "description": [
             "You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn."
+        ],
+        "source": "Reminder Text",
+        "quote": "",
+        "synonyms": [],
+        "see_also": []
+    },
+    {
+        "name": "Waterbend",
+        "type": "Keyword",
+        "description": [
+            "Waterbend COST - While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}"
         ],
         "source": "Reminder Text",
         "quote": "",
